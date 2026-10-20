@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+  /* force-load local variable fonts so canvas can use every weight */
+  .f1 { font-family: "Noto Serif SC"; font-weight: 300; }
+  .f2 { font-family: "Noto Sans SC"; font-weight: 300; }
+</style>
+</head>
+<body>
+<span class="f1" style="position:absolute;opacity:0">字</span>
+<span class="f2" style="position:absolute;opacity:0">字</span>
+<canvas id="c"></canvas>
+<script src="core.js"></script>
+<script>
+  const q = new URLSearchParams(location.search);
+  OV.boot(q.get('project'), { scale: parseFloat(q.get('scale') || '1') });
+</script>
+</body>
+</html>

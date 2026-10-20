@@ -1,0 +1,1167 @@
+{
+ "title": "50mm F1.2｜拍出她最爱的那张",
+ "subtitle": "七个重要却总被忽略的人像细节",
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "duration": 253.24200000000005,
+ "frames": 7598,
+ "chapters": 7,
+ "scenes": [
+  {
+   "id": "hook",
+   "type": "hook",
+   "chapter": 0,
+   "params": {},
+   "start": 0,
+   "end": 9.684999999999999,
+   "duration": 9.684999999999999,
+   "trans": 0,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.12,
+     "end": 2.475
+    },
+    {
+     "start": 2.595,
+     "end": 4.157
+    },
+    {
+     "start": 4.277,
+     "end": 5.989
+    },
+    {
+     "start": 6.109,
+     "end": 9.485
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "type": "title",
+   "chapter": 0,
+   "params": {},
+   "start": 9.684999999999999,
+   "end": 14.287999999999997,
+   "duration": 4.602999999999998,
+   "trans": 0.5,
+   "transType": "flash",
+   "cues": [
+    {
+     "start": 1.5999999999999996,
+     "end": 3.4029999999999987
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "type": "chapter",
+   "chapter": 1,
+   "params": {
+    "num": "01",
+    "title": "F1.2 不是越大越好",
+    "en": "DEPTH OF FIELD"
+   },
+   "start": 14.287999999999997,
+   "end": 18.485999999999997,
+   "duration": 4.198,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.34999999999999964,
+     "end": 3.6479999999999997
+    }
+   ]
+  },
+  {
+   "id": "c1-dof",
+   "type": "dofDiagram",
+   "chapter": 1,
+   "params": {},
+   "start": 18.485999999999997,
+   "end": 28.127999999999997,
+   "duration": 9.642,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3500000000000014,
+     "end": 4.818000000000001
+    },
+    {
+     "start": 5.038,
+     "end": 9.091999999999999
+    }
+   ]
+  },
+  {
+   "id": "c1-eye",
+   "type": "photo",
+   "chapter": 1,
+   "params": {
+    "img": "eye",
+    "kb": [
+     1.04,
+     0.5,
+     0.4,
+     1.12,
+     0.55,
+     0.38
+    ],
+    "rings": [
+     {
+      "x": 0.525,
+      "y": 0.31,
+      "r": 72,
+      "label": "近眼 · 清晰",
+      "ok": true,
+      "at": 0,
+      "delay": 0.3
+     },
+     {
+      "x": 0.385,
+      "y": 0.66,
+      "r": 66,
+      "label": "鼻尖 · 已虚",
+      "ok": false,
+      "at": 0,
+      "delay": 2.2,
+      "side": -1
+     },
+     {
+      "x": 0.315,
+      "y": 0.35,
+      "r": 52,
+      "label": "远眼 · 已虚",
+      "ok": false,
+      "at": 0,
+      "delay": 3.4,
+      "side": -1
+     }
+    ]
+   },
+   "start": 28.127999999999997,
+   "end": 35.27499999999999,
+   "duration": 7.146999999999995,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3500000000000014,
+     "end": 6.596999999999998
+    }
+   ]
+  },
+  {
+   "id": "c1-rule",
+   "type": "photo",
+   "chapter": 1,
+   "params": {
+    "img": "half",
+    "kb": [
+     1.12,
+     0.6,
+     0.45,
+     1.02,
+     0.6,
+     0.45
+    ],
+    "dimSide": "left",
+    "cards": [
+     {
+      "at": 0,
+      "kicker": "CLOSE-UP",
+      "title": "特写  F2 – F2.8",
+      "body": "对焦永远放在离镜头更近的那只眼睛"
+     },
+     {
+      "at": 1,
+      "kicker": "HALF BODY",
+      "title": "半身  F1.2 · 2.5m",
+      "body": "整张脸都在焦内，背景彻底化开"
+     }
+    ]
+   },
+   "start": 35.27499999999999,
+   "end": 46.10499999999999,
+   "duration": 10.829999999999998,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3500000000000014,
+     "end": 6.984999999999999
+    },
+    {
+     "start": 7.204999999999998,
+     "end": 10.280000000000001
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "type": "chapter",
+   "chapter": 2,
+   "params": {
+    "num": "02",
+    "title": "距离，悄悄改变脸型",
+    "en": "PERSPECTIVE"
+   },
+   "start": 46.10499999999999,
+   "end": 50.39899999999999,
+   "duration": 4.293999999999997,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3500000000000014,
+     "end": 3.7439999999999998
+    }
+   ]
+  },
+  {
+   "id": "c2-face",
+   "type": "perspective",
+   "chapter": 2,
+   "params": {},
+   "start": 50.39899999999999,
+   "end": 75.47799999999998,
+   "duration": 25.078999999999994,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3500000000000014,
+     "end": 7.908999999999999
+    },
+    {
+     "start": 8.129000000000005,
+     "end": 16.009
+    },
+    {
+     "start": 16.229,
+     "end": 24.528999999999996
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "type": "chapter",
+   "chapter": 3,
+   "params": {
+    "num": "03",
+    "title": "镜头高度，决定比例",
+    "en": "CAMERA HEIGHT"
+   },
+   "start": 75.47799999999998,
+   "end": 79.98499999999997,
+   "duration": 4.506999999999991,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 3.9569999999999936
+    }
+   ]
+  },
+  {
+   "id": "c3-height",
+   "type": "cameraHeight",
+   "chapter": 3,
+   "params": {},
+   "start": 79.98499999999997,
+   "end": 103.24899999999997,
+   "duration": 23.263999999999996,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 5.7819999999999965
+    },
+    {
+     "start": 6.001999999999995,
+     "end": 12.454999999999998
+    },
+    {
+     "start": 12.674999999999997,
+     "end": 22.714
+    }
+   ]
+  },
+  {
+   "id": "c4",
+   "type": "chapter",
+   "chapter": 4,
+   "params": {
+    "num": "04",
+    "title": "晴天，F1.2 会过曝",
+    "en": "SHUTTER LIMIT"
+   },
+   "start": 103.24899999999997,
+   "end": 110.86199999999995,
+   "duration": 7.612999999999985,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 7.062999999999988
+    }
+   ]
+  },
+  {
+   "id": "c4-stops",
+   "type": "shutterStops",
+   "chapter": 4,
+   "params": {},
+   "start": 110.86199999999995,
+   "end": 134.15999999999997,
+   "duration": 23.298000000000016,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 6.653999999999996
+    },
+    {
+     "start": 6.873999999999995,
+     "end": 12.655999999999992
+    },
+    {
+     "start": 12.87599999999999,
+     "end": 16.531999999999996
+    },
+    {
+     "start": 16.751999999999995,
+     "end": 22.748000000000005
+    }
+   ]
+  },
+  {
+   "id": "c5",
+   "type": "chapter",
+   "chapter": 5,
+   "params": {
+    "num": "05",
+    "title": "让背景主动融化",
+    "en": "BOKEH BY DISTANCE"
+   },
+   "start": 134.15999999999997,
+   "end": 138.48799999999997,
+   "duration": 4.328000000000003,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 3.7779999999999916
+    }
+   ]
+  },
+  {
+   "id": "c5-dist",
+   "type": "bgDistance",
+   "chapter": 5,
+   "params": {},
+   "start": 138.48799999999997,
+   "end": 151.89499999999998,
+   "duration": 13.40700000000001,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 3.5
+    },
+    {
+     "start": 3.719999999999999,
+     "end": 12.857
+    }
+   ]
+  },
+  {
+   "id": "c5-night",
+   "type": "photo",
+   "chapter": 5,
+   "params": {
+    "img": "night",
+    "kb": [
+     1,
+     0.5,
+     0.5,
+     1.1,
+     0.55,
+     0.45
+    ],
+    "caption": {
+     "at": 0,
+     "kicker": "POINT LIGHTS",
+     "text": "灯串、树叶间的阳光 → 圆润光斑"
+    }
+   },
+   "start": 151.89499999999998,
+   "end": 159.051,
+   "duration": 7.156000000000006,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 6.6059999999999945
+    }
+   ]
+  },
+  {
+   "id": "c5-fg",
+   "type": "photo",
+   "chapter": 5,
+   "params": {
+    "img": "fg",
+    "kb": [
+     1.14,
+     0.5,
+     0.5,
+     1.02,
+     0.5,
+     0.5
+    ],
+    "caption": {
+     "at": 0,
+     "kicker": "FOREGROUND",
+     "text": "花和叶子贴近镜头 → 梦幻前景"
+    }
+   },
+   "start": 159.051,
+   "end": 166.85399999999998,
+   "duration": 7.802999999999997,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 7.252999999999986
+    }
+   ]
+  },
+  {
+   "id": "c6",
+   "type": "chapter",
+   "chapter": 6,
+   "params": {
+    "num": "06",
+    "title": "光的方向与肤色",
+    "en": "LIGHT & SKIN"
+   },
+   "start": 166.85399999999998,
+   "end": 170.756,
+   "duration": 3.9020000000000152,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 3.352000000000004
+    }
+   ]
+  },
+  {
+   "id": "c6-sun",
+   "type": "sunOrbit",
+   "chapter": 6,
+   "params": {},
+   "start": 170.756,
+   "end": 183.06,
+   "duration": 12.304000000000002,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 6.664999999999992
+    },
+    {
+     "start": 6.884999999999991,
+     "end": 11.75399999999999
+    }
+   ]
+  },
+  {
+   "id": "c6-hero",
+   "type": "photo",
+   "chapter": 6,
+   "params": {
+    "img": "hero",
+    "kb": [
+     1.02,
+     0.5,
+     0.5,
+     1.12,
+     0.48,
+     0.4
+    ],
+    "rings": [
+     {
+      "x": 0.625,
+      "y": 0.42,
+      "r": 80,
+      "label": "发丝光",
+      "ok": true,
+      "at": 0,
+      "delay": 0.4
+     }
+    ],
+    "cards": [
+     {
+      "at": 0,
+      "kicker": "METERING",
+      "title": "对脸测光  +0.7 ~ +1 EV",
+      "body": "逆光下相机会被背景骗，主动给皮肤加曝光",
+      "delay": 1
+     }
+    ]
+   },
+   "start": 183.06,
+   "end": 189.637,
+   "duration": 6.576999999999998,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 6.026999999999987
+    }
+   ]
+  },
+  {
+   "id": "c6-tree",
+   "type": "compare",
+   "chapter": 6,
+   "params": {
+    "img": "tree",
+    "left": "树荫下 · 皮肤偏青绿",
+    "right": "白平衡偏暖 · 面向亮色地面"
+   },
+   "start": 189.637,
+   "end": 202.424,
+   "duration": 12.787000000000006,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 5.8559999999999945
+    },
+    {
+     "start": 6.075999999999993,
+     "end": 12.236999999999995
+    }
+   ]
+  },
+  {
+   "id": "c7",
+   "type": "chapter",
+   "chapter": 7,
+   "params": {
+    "num": "07",
+    "title": "给动作，不给姿势",
+    "en": "DIRECTING"
+   },
+   "start": 202.424,
+   "end": 208.04600000000002,
+   "duration": 5.622000000000014,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 5.072000000000003
+    }
+   ]
+  },
+  {
+   "id": "c7-direct",
+   "type": "directing",
+   "chapter": 7,
+   "params": {
+    "img": "candid"
+   },
+   "start": 208.04600000000002,
+   "end": 225.16700000000003,
+   "duration": 17.12100000000001,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 5.620999999999981
+    },
+    {
+     "start": 5.84099999999998,
+     "end": 11.140999999999991
+    },
+    {
+     "start": 11.36099999999999,
+     "end": 16.570999999999998
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "type": "recap",
+   "chapter": 0,
+   "params": {
+    "items": [
+     [
+      "收一档光圈",
+      "对焦近眼"
+     ],
+     [
+      "退后一步",
+      "脸更小"
+     ],
+     [
+      "放低机位",
+      "腿更长"
+     ],
+     [
+      "强光全开",
+      "电子快门 / ND"
+     ],
+     [
+      "拉开背景",
+      "≥ 2 倍距离"
+     ],
+     [
+      "逆光加曝光",
+      "树荫调暖"
+     ],
+     [
+      "给动作",
+      "抓瞬间"
+     ]
+    ]
+   },
+   "start": 225.16700000000003,
+   "end": 243.48900000000006,
+   "duration": 18.32200000000003,
+   "trans": 0.7,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 2.423000000000002
+    },
+    {
+     "start": 2.522999999999996,
+     "end": 4.805000000000007
+    },
+    {
+     "start": 4.905000000000001,
+     "end": 6.699999999999989
+    },
+    {
+     "start": 6.800000000000011,
+     "end": 8.703000000000003
+    },
+    {
+     "start": 8.802999999999997,
+     "end": 11.752999999999986
+    },
+    {
+     "start": 11.853000000000009,
+     "end": 13.439999999999998
+    },
+    {
+     "start": 13.54000000000002,
+     "end": 15.966000000000008
+    },
+    {
+     "start": 16.06600000000003,
+     "end": 17.77200000000002
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "type": "outro",
+   "chapter": 0,
+   "params": {
+    "img": "hero"
+   },
+   "start": 243.48900000000006,
+   "end": 253.24200000000005,
+   "duration": 9.752999999999986,
+   "trans": 0.9,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.3499999999999943,
+     "end": 1.7620000000000005
+    },
+    {
+     "start": 1.9819999999999993,
+     "end": 6.552999999999997
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "hook-0",
+   "scene": "hook",
+   "text": "同一个女孩，同一支50mm F1.2。",
+   "sub": true,
+   "start": 0.12,
+   "end": 2.475,
+   "file": "build/voice/hook-0_7cbc87d18f61.mp3"
+  },
+  {
+   "id": "hook-1",
+   "scene": "hook",
+   "text": "这张，她让你删掉。",
+   "sub": true,
+   "start": 2.595,
+   "end": 4.157,
+   "file": "build/voice/hook-1_d4b3fa767993.mp3"
+  },
+  {
+   "id": "hook-2",
+   "scene": "hook",
+   "text": "这张，她设成了头像。",
+   "sub": true,
+   "start": 4.277,
+   "end": 5.989,
+   "file": "build/voice/hook-2_1b855c47729d.mp3"
+  },
+  {
+   "id": "hook-3",
+   "scene": "hook",
+   "text": "差别不在器材，在七个没人告诉你的细节。",
+   "sub": true,
+   "start": 6.109,
+   "end": 9.485,
+   "file": "build/voice/hook-3_dd0d86715565.mp3"
+  },
+  {
+   "id": "title-0",
+   "scene": "title",
+   "text": "今天，一次讲透。",
+   "sub": true,
+   "start": 11.284999999999998,
+   "end": 13.087999999999997,
+   "file": "build/voice/title-0_3e537b6aced3.mp3"
+  },
+  {
+   "id": "c1-0",
+   "scene": "c1",
+   "text": "第一个误区：光圈全开，就一定好看。",
+   "sub": true,
+   "start": 14.637999999999996,
+   "end": 17.935999999999996,
+   "file": "build/voice/c1-0_b7099e6b3c35.mp3"
+  },
+  {
+   "id": "c1-dof-0",
+   "scene": "c1-dof",
+   "text": "在1米距离，F1.2的清晰范围只有大约3厘米。",
+   "sub": true,
+   "start": 18.836,
+   "end": 23.304,
+   "file": "build/voice/c1-dof-0_c320bc94f2f8.mp3"
+  },
+  {
+   "id": "c1-dof-1",
+   "scene": "c1-dof",
+   "text": "而退到2.5米拍半身，清晰范围接近18厘米。",
+   "sub": true,
+   "start": 23.523999999999997,
+   "end": 27.577999999999996,
+   "file": "build/voice/c1-dof-1_92a4c3a23bd2.mp3"
+  },
+  {
+   "id": "c1-eye-0",
+   "scene": "c1-eye",
+   "text": "贴近拍特写时，近处的眼睛清楚了，鼻尖和远处的眼睛却已经开始发虚。",
+   "sub": true,
+   "start": 28.477999999999998,
+   "end": 34.724999999999994,
+   "file": "build/voice/c1-eye-0_1a4a6c12cb75.mp3"
+  },
+  {
+   "id": "c1-rule-0",
+   "scene": "c1-rule",
+   "text": "所以拍特写，把光圈收到F2到F2.8，对焦永远放在更近的那只眼睛；",
+   "sub": true,
+   "start": 35.62499999999999,
+   "end": 42.25999999999999,
+   "file": "build/voice/c1-rule-0_f4e2bb7bab46.mp3"
+  },
+  {
+   "id": "c1-rule-1",
+   "scene": "c1-rule",
+   "text": "把F1.2，留给两三米外的半身。",
+   "sub": true,
+   "start": 42.47999999999999,
+   "end": 45.55499999999999,
+   "file": "build/voice/c1-rule-1_897143e8c685.mp3"
+  },
+  {
+   "id": "c2-0",
+   "scene": "c2",
+   "text": "第二，拍摄距离会悄悄改变她的脸型。",
+   "sub": true,
+   "start": 46.45499999999999,
+   "end": 49.84899999999999,
+   "file": "build/voice/c2-0_4508cfb74eac.mp3"
+  },
+  {
+   "id": "c2-face-0",
+   "scene": "c2-face",
+   "text": "贴得太近，离镜头最近的鼻子和脸颊中部被放大，耳朵往后缩，脸就显得又圆又鼓。",
+   "sub": true,
+   "start": 50.74899999999999,
+   "end": 58.307999999999986,
+   "file": "build/voice/c2-face-0_f85acd92169a.mp3"
+  },
+  {
+   "id": "c2-face-1",
+   "scene": "c2-face",
+   "text": "同样的构图，在0.4米拍，鼻尖比耳朵多放大近三成；退到1.5米，只剩不到一成。",
+   "sub": true,
+   "start": 58.52799999999999,
+   "end": 66.40799999999999,
+   "file": "build/voice/c2-face-1_217d4e891c35.mp3"
+  },
+  {
+   "id": "c2-face-2",
+   "scene": "c2-face",
+   "text": "女生最在意的显脸小，其实是你退后一步换来的。想要更紧的构图，就后期裁切，别往前凑。",
+   "sub": true,
+   "start": 66.62799999999999,
+   "end": 74.92799999999998,
+   "file": "build/voice/c2-face-2_65aacafb4e31.mp3"
+  },
+  {
+   "id": "c3-0",
+   "scene": "c3",
+   "text": "第三，镜头的高度，决定她的身材比例。",
+   "sub": true,
+   "start": 75.82799999999997,
+   "end": 79.43499999999997,
+   "file": "build/voice/c3-0_eb8c4b5a373b.mp3"
+  },
+  {
+   "id": "c3-height-0",
+   "scene": "c3-height",
+   "text": "站着平视拍全身，镜头离她的头近、离脚远，腿就被压短了。",
+   "sub": true,
+   "start": 80.33499999999997,
+   "end": 85.76699999999997,
+   "file": "build/voice/c3-height-0_d381ebe95a8f.mp3"
+  },
+  {
+   "id": "c3-height-1",
+   "scene": "c3-height",
+   "text": "蹲下来，让镜头降到腰部甚至更低，脚尖贴近画面底边，腿立刻显长。",
+   "sub": true,
+   "start": 85.98699999999997,
+   "end": 92.43999999999997,
+   "file": "build/voice/c3-height-1_7211bc61e356.mp3"
+  },
+  {
+   "id": "c3-height-2",
+   "scene": "c3-height",
+   "text": "还有一条铁律：不要在关节处裁切。脚踝、膝盖、手腕，都是禁区；要裁，就裁在大腿或小腿的中段。",
+   "sub": true,
+   "start": 92.65999999999997,
+   "end": 102.69899999999997,
+   "file": "build/voice/c3-height-2_59e43f7acdd6.mp3"
+  },
+  {
+   "id": "c4-0",
+   "scene": "c4",
+   "text": "第四个，几乎没人提前告诉你：晴天全开F1.2，照片很容易直接过曝。",
+   "sub": true,
+   "start": 103.59899999999996,
+   "end": 110.31199999999995,
+   "file": "build/voice/c4-0_241a4c2780c2.mp3"
+  },
+  {
+   "id": "c4-stops-0",
+   "scene": "c4-stops",
+   "text": "按阳光16法则，ISO100、F16时快门是1/125秒。",
+   "sub": true,
+   "start": 111.21199999999995,
+   "end": 117.51599999999995,
+   "file": "build/voice/c4-stops-0_a3453c92db49.mp3"
+  },
+  {
+   "id": "c4-stops-1",
+   "scene": "c4-stops",
+   "text": "开到F1.2，要多进将近7档半的光，快门得接近1/20000秒。",
+   "sub": true,
+   "start": 117.73599999999995,
+   "end": 123.51799999999994,
+   "file": "build/voice/c4-stops-1_a7edcb3871d3.mp3"
+  },
+  {
+   "id": "c4-stops-2",
+   "scene": "c4-stops",
+   "text": "而大多数机械快门，最快只有1/8000。",
+   "sub": true,
+   "start": 123.73799999999994,
+   "end": 127.39399999999995,
+   "file": "build/voice/c4-stops-2_b105bf1ec10b.mp3"
+  },
+  {
+   "id": "c4-stops-3",
+   "scene": "c4-stops",
+   "text": "解决方法：打开电子快门，或者在镜头前加一片ND减光镜。",
+   "sub": true,
+   "start": 127.61399999999995,
+   "end": 133.60999999999996,
+   "file": "build/voice/c4-stops-3_29c030b330de.mp3"
+  },
+  {
+   "id": "c5-0",
+   "scene": "c5",
+   "text": "第五，虚化不只靠光圈，更靠距离。",
+   "sub": true,
+   "start": 134.50999999999996,
+   "end": 137.93799999999996,
+   "file": "build/voice/c5-0_176864753924.mp3"
+  },
+  {
+   "id": "c5-dist-0",
+   "scene": "c5-dist",
+   "text": "背景贴着她，光圈再大也化不开。",
+   "sub": true,
+   "start": 138.83799999999997,
+   "end": 141.98799999999997,
+   "file": "build/voice/c5-dist-0_7ab48a11a00a.mp3"
+  },
+  {
+   "id": "c5-dist-1",
+   "scene": "c5-dist",
+   "text": "让背景离她至少是你和她距离的两倍，光斑就能达到最大虚化的七成左右；再往后，收益就越来越小了。",
+   "sub": true,
+   "start": 142.20799999999997,
+   "end": 151.34499999999997,
+   "file": "build/voice/c5-dist-1_fe7237f9bcb6.mp3"
+  },
+  {
+   "id": "c5-night-0",
+   "scene": "c5-night",
+   "text": "所以找背景时，专挑灯串、树叶缝隙里的阳光，它们会变成圆润的光斑。",
+   "sub": true,
+   "start": 152.24499999999998,
+   "end": 158.50099999999998,
+   "file": "build/voice/c5-night-0_adaffad953d4.mp3"
+  },
+  {
+   "id": "c5-fg-0",
+   "scene": "c5-fg",
+   "text": "再进一步：把花和树叶贴近镜头，前景也虚掉，画面立刻多了一层梦幻的空气感。",
+   "sub": true,
+   "start": 159.40099999999998,
+   "end": 166.30399999999997,
+   "file": "build/voice/c5-fg-0_e639b4083d09.mp3"
+  },
+  {
+   "id": "c6-0",
+   "scene": "c6",
+   "text": "第六，光的方向，决定她的皮肤。",
+   "sub": true,
+   "start": 167.20399999999998,
+   "end": 170.206,
+   "file": "build/voice/c6-0_5f2435fc4ad4.mp3"
+  },
+  {
+   "id": "c6-sun-0",
+   "scene": "c6-sun",
+   "text": "正午顶光会在眼窝和鼻下留下重重的阴影；顺光又太平，没有立体感。",
+   "sub": true,
+   "start": 171.106,
+   "end": 177.421,
+   "file": "build/voice/c6-sun-0_047364454fda.mp3"
+  },
+  {
+   "id": "c6-sun-1",
+   "scene": "c6-sun",
+   "text": "最好的是逆光和侧逆光：让太阳在她身后，发丝会发光。",
+   "sub": true,
+   "start": 177.641,
+   "end": 182.51,
+   "file": "build/voice/c6-sun-1_1ea8b43ccb65.mp3"
+  },
+  {
+   "id": "c6-hero-0",
+   "scene": "c6-hero",
+   "text": "这时按她的脸测光，适当加零点七到一档曝光，皮肤会通透干净。",
+   "sub": true,
+   "start": 183.41,
+   "end": 189.087,
+   "file": "build/voice/c6-hero-0_500a81314f4f.mp3"
+  },
+  {
+   "id": "c6-tree-0",
+   "scene": "c6-tree",
+   "text": "还有个隐形杀手：树荫下，满眼的绿叶会把皮肤染成青绿色。",
+   "sub": true,
+   "start": 189.987,
+   "end": 195.493,
+   "file": "build/voice/c6-tree-0_d7fdbdae829e.mp3"
+  },
+  {
+   "id": "c6-tree-1",
+   "scene": "c6-tree",
+   "text": "手动把白平衡调暖一点，或者让她面向亮色的地面，用地面当反光板。",
+   "sub": true,
+   "start": 195.713,
+   "end": 201.874,
+   "file": "build/voice/c6-tree-1_54181eb26d30.mp3"
+  },
+  {
+   "id": "c7-0",
+   "scene": "c7",
+   "text": "第七，也是最重要的：别让她摆姿势，给她一个动作。",
+   "sub": true,
+   "start": 202.774,
+   "end": 207.496,
+   "file": "build/voice/c7-0_2bf9e9a272bd.mp3"
+  },
+  {
+   "id": "c7-direct-0",
+   "scene": "c7-direct",
+   "text": "往前走，然后回头看我；把头发别到耳后；想一件好笑的事。",
+   "sub": true,
+   "start": 208.39600000000002,
+   "end": 213.667,
+   "file": "build/voice/c7-direct-0_dac9c806df4f.mp3"
+  },
+  {
+   "id": "c7-direct-1",
+   "scene": "c7-direct",
+   "text": "开启连拍和眼部追焦，最自然的那张，往往藏在两个动作之间。",
+   "sub": true,
+   "start": 213.887,
+   "end": 219.187,
+   "file": "build/voice/c7-direct-1_1f9ec11d6a97.mp3"
+  },
+  {
+   "id": "c7-direct-2",
+   "scene": "c7-direct",
+   "text": "边拍边夸，随时把好看的那张给她看，她的状态会越来越好。",
+   "sub": true,
+   "start": 219.407,
+   "end": 224.61700000000002,
+   "file": "build/voice/c7-direct-2_2f7324ba07ad.mp3"
+  },
+  {
+   "id": "recap-0",
+   "scene": "recap",
+   "text": "最后，记住这七件事：",
+   "sub": true,
+   "start": 225.51700000000002,
+   "end": 227.59000000000003,
+   "file": "build/voice/recap-0_803241a231d3.mp3"
+  },
+  {
+   "id": "recap-1",
+   "scene": "recap",
+   "text": "收一档光圈，对焦近眼；",
+   "sub": true,
+   "start": 227.69000000000003,
+   "end": 229.97200000000004,
+   "file": "build/voice/recap-1_6f2ff5878d65.mp3"
+  },
+  {
+   "id": "recap-2",
+   "scene": "recap",
+   "text": "退后一步，脸更小；",
+   "sub": true,
+   "start": 230.07200000000003,
+   "end": 231.86700000000002,
+   "file": "build/voice/recap-2_6cf8c62a86c4.mp3"
+  },
+  {
+   "id": "recap-3",
+   "scene": "recap",
+   "text": "放低机位，腿更长；",
+   "sub": true,
+   "start": 231.96700000000004,
+   "end": 233.87000000000003,
+   "file": "build/voice/recap-3_42b8f8e817c1.mp3"
+  },
+  {
+   "id": "recap-4",
+   "scene": "recap",
+   "text": "强光全开，用电子快门或ND；",
+   "sub": true,
+   "start": 233.97000000000003,
+   "end": 236.92000000000002,
+   "file": "build/voice/recap-4_ca25d86b7fff.mp3"
+  },
+  {
+   "id": "recap-5",
+   "scene": "recap",
+   "text": "背景拉开两倍距离；",
+   "sub": true,
+   "start": 237.02000000000004,
+   "end": 238.60700000000003,
+   "file": "build/voice/recap-5_18bfc0b1d31a.mp3"
+  },
+  {
+   "id": "recap-6",
+   "scene": "recap",
+   "text": "逆光加曝光，树荫下调暖；",
+   "sub": true,
+   "start": 238.70700000000005,
+   "end": 241.13300000000004,
+   "file": "build/voice/recap-6_180ab1883165.mp3"
+  },
+  {
+   "id": "recap-7",
+   "scene": "recap",
+   "text": "给动作，抓瞬间。",
+   "sub": true,
+   "start": 241.23300000000006,
+   "end": 242.93900000000005,
+   "file": "build/voice/recap-7_78487c4c0618.mp3"
+  },
+  {
+   "id": "outro-0",
+   "scene": "outro",
+   "text": "器材决定下限。",
+   "sub": true,
+   "start": 243.83900000000006,
+   "end": 245.25100000000006,
+   "file": "build/voice/outro-0_4747cd846997.mp3"
+  },
+  {
+   "id": "outro-1",
+   "scene": "outro",
+   "text": "细节，决定她会不会对你说：这张，我要发朋友圈。",
+   "sub": true,
+   "start": 245.47100000000006,
+   "end": 250.04200000000006,
+   "file": "build/voice/outro-1_327ea35403f7.mp3"
+  }
+ ],
+ "assets": {
+  "hero": "build/img/hero.jpg",
+  "bad": "build/img/bad.jpg",
+  "eye": "build/img/eye.jpg",
+  "half": "build/img/half.jpg",
+  "fg": "build/img/fg.jpg",
+  "night": "build/img/night.jpg",
+  "candid": "build/img/candid.jpg",
+  "lens": "build/img/lens.jpg",
+  "tree": "build/img/tree.jpg"
+ }
+}

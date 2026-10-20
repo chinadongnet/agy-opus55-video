@@ -1,0 +1,1281 @@
+{
+ "title": "三种大片｜装备与知识全地图",
+ "subtitle": "人像 · 风光 · 电影级视频",
+ "hud": {
+  "label": "BLOCKBUSTER NOTES",
+  "tag": "VOL.02"
+ },
+ "width": 1920,
+ "height": 1080,
+ "fps": 30,
+ "duration": 288.559,
+ "frames": 8657,
+ "chapters": 3,
+ "scenes": [
+  {
+   "id": "hook",
+   "type": "opener",
+   "chapter": 0,
+   "params": {
+    "sfx": [
+     {
+      "kind": "shutter",
+      "cue": 1,
+      "dt": -0.06
+     },
+     {
+      "kind": "shutter",
+      "cue": 2,
+      "dt": -0.06
+     },
+     {
+      "kind": "boom",
+      "cue": 3,
+      "amp": 0.7
+     }
+    ]
+   },
+   "start": 0,
+   "end": 9.173,
+   "duration": 9.173,
+   "trans": 0,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.15,
+     "end": 1.541
+    },
+    {
+     "start": 1.661,
+     "end": 3.23
+    },
+    {
+     "start": 3.35,
+     "end": 5.24
+    },
+    {
+     "start": 5.359999999999999,
+     "end": 8.873
+    }
+   ]
+  },
+  {
+   "id": "title",
+   "type": "title",
+   "chapter": 0,
+   "params": {},
+   "start": 9.173,
+   "end": 15.944,
+   "duration": 6.771000000000001,
+   "trans": 0.5,
+   "transType": "flash",
+   "cues": [
+    {
+     "start": 1.5,
+     "end": 5.671000000000001
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "type": "thesis",
+   "chapter": 0,
+   "params": {},
+   "start": 15.944,
+   "end": 32.411,
+   "duration": 16.467,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999893,
+     "end": 4.717999999999998
+    },
+    {
+     "start": 4.918000000000001,
+     "end": 8.297000000000002
+    },
+    {
+     "start": 8.497000000000002,
+     "end": 12.133000000000001
+    },
+    {
+     "start": 12.333,
+     "end": 15.967
+    }
+   ]
+  },
+  {
+   "id": "c1",
+   "type": "chapter",
+   "chapter": 1,
+   "params": {
+    "num": "01",
+    "title": "人像大片",
+    "sub": "控制注意力 · 让观众只看见她",
+    "en": "PORTRAIT",
+    "img": "portrait",
+    "tag": "85mm  ƒ/1.4",
+    "sfx": [
+     {
+      "kind": "whoosh"
+     }
+    ]
+   },
+   "start": 32.411,
+   "end": 34.870999999999995,
+   "duration": 2.4599999999999937,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 1.9599999999999937
+    }
+   ]
+  },
+  {
+   "id": "c1-gear",
+   "type": "gearBoard",
+   "chapter": 1,
+   "params": {
+    "img": "gearP",
+    "heading": "人像装备清单",
+    "items": [
+     {
+      "cue": 0,
+      "icon": "camera",
+      "name": "全画幅机身",
+      "spec": "眼部追焦 · 高感干净",
+      "tier": "必备"
+     },
+     {
+      "cue": 0,
+      "icon": "lens",
+      "name": "85mm  F1.4 / F1.8",
+      "spec": "黄金人像焦段 · 背景化开",
+      "tier": "必备"
+     },
+     {
+      "cue": 1,
+      "icon": "lens2",
+      "name": "35mm / 50mm",
+      "spec": "带入环境 · 讲故事",
+      "tier": "进阶"
+     },
+     {
+      "cue": 2,
+      "icon": "reflector",
+      "name": "五合一反光板",
+      "spec": "百元级 · 最划算的补光",
+      "tier": "必备"
+     },
+     {
+      "cue": 2,
+      "icon": "flash",
+      "name": "离机闪光 + 柔光箱",
+      "spec": "从等光，变成造光",
+      "tier": "进阶"
+     }
+    ]
+   },
+   "start": 34.870999999999995,
+   "end": 52.062,
+   "duration": 17.191000000000003,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 7.366999999999997
+    },
+    {
+     "start": 7.567,
+     "end": 10.979
+    },
+    {
+     "start": 11.179000000000002,
+     "end": 16.691000000000003
+    }
+   ]
+  },
+  {
+   "id": "c1-persp",
+   "type": "focalPerspective",
+   "chapter": 1,
+   "params": {},
+   "start": 52.062,
+   "end": 68.678,
+   "duration": 16.616,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 3.067999999999998
+    },
+    {
+     "start": 3.2680000000000007,
+     "end": 11.507000000000005
+    },
+    {
+     "start": 11.707,
+     "end": 16.116
+    }
+   ]
+  },
+  {
+   "id": "c1-light",
+   "type": "lightPositions",
+   "chapter": 1,
+   "params": {},
+   "start": 68.678,
+   "end": 86.785,
+   "duration": 18.107,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 8.075999999999993
+    },
+    {
+     "start": 8.275999999999996,
+     "end": 13.576999999999998
+    },
+    {
+     "start": 13.777000000000001,
+     "end": 17.607
+    }
+   ]
+  },
+  {
+   "id": "c1-soft",
+   "type": "knowCards",
+   "chapter": 1,
+   "params": {
+    "img": "portrait",
+    "kb": [
+     1.06,
+     0.62,
+     0.42,
+     1.14,
+     0.62,
+     0.38
+    ],
+    "cards": [
+     {
+      "cue": 0,
+      "kicker": "APERTURE",
+      "title": "特写 F2–F2.8 · 半身全开",
+      "body": "保证双眼都在焦内，再谈虚化"
+     },
+     {
+      "cue": 1,
+      "kicker": "DIRECTING",
+      "title": "给动作，不给姿势",
+      "body": "走两步回头、整理头发，抓两个动作之间"
+     },
+     {
+      "cue": 2,
+      "kicker": "RETOUCH",
+      "title": "统一肤色 · 明暗塑形",
+      "body": "先修色，再修光，最后才是修脸"
+     }
+    ]
+   },
+   "start": 86.785,
+   "end": 99.234,
+   "duration": 12.448999999999998,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 5.519999999999996
+    },
+    {
+     "start": 5.719999999999999,
+     "end": 8.891000000000005
+    },
+    {
+     "start": 9.090999999999994,
+     "end": 11.948999999999998
+    }
+   ]
+  },
+  {
+   "id": "c2",
+   "type": "chapter",
+   "chapter": 2,
+   "params": {
+    "num": "02",
+    "title": "风光大片",
+    "sub": "控制时间 · 在对的光里等待",
+    "en": "LANDSCAPE",
+    "img": "landscape",
+    "tag": "16–35mm  ƒ/11",
+    "sfx": [
+     {
+      "kind": "whoosh"
+     }
+    ]
+   },
+   "start": 99.234,
+   "end": 101.70899999999999,
+   "duration": 2.4749999999999943,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 1.9749999999999943
+    }
+   ]
+  },
+  {
+   "id": "c2-gear",
+   "type": "gearBoard",
+   "chapter": 2,
+   "params": {
+    "img": "gearL",
+    "heading": "风光装备清单",
+    "items": [
+     {
+      "cue": 0,
+      "icon": "camera",
+      "name": "高像素 · 高宽容度机身",
+      "spec": "暗部拉得回，大图放得开",
+      "tier": "必备"
+     },
+     {
+      "cue": 0,
+      "icon": "lens",
+      "name": "16–35mm  +  70–200mm",
+      "spec": "广角夸张前景 · 长焦压缩山峦",
+      "tier": "必备"
+     },
+     {
+      "cue": 1,
+      "icon": "tripod",
+      "name": "稳固三脚架 + 快门线",
+      "spec": "长曝光与包围曝光的前提",
+      "tier": "必备"
+     },
+     {
+      "cue": 2,
+      "icon": "cpl",
+      "name": "CPL 偏振镜",
+      "spec": "去反光 · 天空更蓝 · 水面通透",
+      "tier": "必备"
+     },
+     {
+      "cue": 2,
+      "icon": "nd",
+      "name": "ND 减光镜  /  GND 渐变灰",
+      "spec": "ND 拉长时间 · GND 压暗天空",
+      "tier": "进阶"
+     }
+    ]
+   },
+   "start": 101.70899999999999,
+   "end": 121.46399999999998,
+   "duration": 19.754999999999995,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 8.554000000000002
+    },
+    {
+     "start": 8.75399999999999,
+     "end": 12.97999999999999
+    },
+    {
+     "start": 13.179999999999993,
+     "end": 19.254999999999995
+    }
+   ]
+  },
+  {
+   "id": "c2-time",
+   "type": "lightClock",
+   "chapter": 2,
+   "params": {},
+   "start": 121.46399999999998,
+   "end": 138.2,
+   "duration": 16.736000000000004,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.29999999999999716,
+     "end": 8.323999999999998
+    },
+    {
+     "start": 8.523999999999987,
+     "end": 13.253999999999976
+    },
+    {
+     "start": 13.453999999999994,
+     "end": 16.236000000000004
+    }
+   ]
+  },
+  {
+   "id": "c2-dr",
+   "type": "dynamicRange",
+   "chapter": 2,
+   "params": {
+    "img": "landscape"
+   },
+   "start": 138.2,
+   "end": 152.127,
+   "duration": 13.927000000000021,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 8.505000000000024
+    },
+    {
+     "start": 8.705000000000013,
+     "end": 13.427000000000021
+    }
+   ]
+  },
+  {
+   "id": "c2-nd",
+   "type": "ndLong",
+   "chapter": 2,
+   "params": {
+    "sfx": [
+     {
+      "kind": "shutter",
+      "cue": 1,
+      "dt": -0.1
+     }
+    ]
+   },
+   "start": 152.127,
+   "end": 161.78500000000003,
+   "duration": 9.658000000000015,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 4.898000000000025
+    },
+    {
+     "start": 5.098000000000013,
+     "end": 9.158000000000015
+    }
+   ]
+  },
+  {
+   "id": "c2-focus",
+   "type": "hyperfocal",
+   "chapter": 2,
+   "params": {},
+   "start": 161.78500000000003,
+   "end": 183.35700000000006,
+   "duration": 21.57200000000003,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 6.721000000000004
+    },
+    {
+     "start": 6.921000000000021,
+     "end": 15.644000000000034
+    },
+    {
+     "start": 15.844000000000023,
+     "end": 21.07200000000003
+    }
+   ]
+  },
+  {
+   "id": "c3",
+   "type": "chapter",
+   "chapter": 3,
+   "params": {
+    "num": "03",
+    "title": "电影级视频",
+    "sub": "控制运动与情绪 · 让画面讲故事",
+    "en": "CINEMA",
+    "img": "cinema",
+    "tag": "24fps  ·  1/50s",
+    "sfx": [
+     {
+      "kind": "whoosh"
+     }
+    ]
+   },
+   "start": 183.35700000000006,
+   "end": 189.30700000000007,
+   "duration": 5.950000000000017,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 5.450000000000017
+    }
+   ]
+  },
+  {
+   "id": "c3-gear",
+   "type": "gearBoard",
+   "chapter": 3,
+   "params": {
+    "img": "gearC",
+    "heading": "电影感装备清单",
+    "items": [
+     {
+      "cue": 0,
+      "icon": "camera",
+      "name": "10-bit Log 机身",
+      "spec": "保住宽容度 · 给调色留空间",
+      "tier": "必备"
+     },
+     {
+      "cue": 0,
+      "icon": "nd",
+      "name": "可变 ND",
+      "spec": "白天也能守住 1/50 快门",
+      "tier": "必备"
+     },
+     {
+      "cue": 0,
+      "icon": "gimbal",
+      "name": "稳定器 / 滑轨",
+      "spec": "运动要稳，更要有动机",
+      "tier": "必备"
+     },
+     {
+      "cue": 1,
+      "icon": "mic",
+      "name": "无线领夹麦 + 枪麦",
+      "spec": "声音是电影的另一半",
+      "tier": "必备"
+     },
+     {
+      "cue": 1,
+      "icon": "monitor",
+      "name": "监视器 + 补光灯",
+      "spec": "看波形测曝光 · 控制光比",
+      "tier": "进阶"
+     }
+    ]
+   },
+   "start": 189.30700000000007,
+   "end": 203.87900000000008,
+   "duration": 14.572000000000003,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 5.088000000000022
+    },
+    {
+     "start": 5.288000000000011,
+     "end": 10.028999999999996
+    },
+    {
+     "start": 10.229000000000013,
+     "end": 14.072000000000003
+    }
+   ]
+  },
+  {
+   "id": "c3-shutter",
+   "type": "shutter180",
+   "chapter": 3,
+   "params": {},
+   "start": 203.87900000000008,
+   "end": 225.86700000000008,
+   "duration": 21.988,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 7.497000000000014
+    },
+    {
+     "start": 7.697000000000003,
+     "end": 12.866000000000014
+    },
+    {
+     "start": 13.066000000000003,
+     "end": 21.488
+    }
+   ]
+  },
+  {
+   "id": "c3-log",
+   "type": "logGrade",
+   "chapter": 3,
+   "params": {
+    "img": "cinema"
+   },
+   "start": 225.86700000000008,
+   "end": 241.1010000000001,
+   "duration": 15.234000000000037,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 6.475999999999999
+    },
+    {
+     "start": 6.676000000000016,
+     "end": 12.00200000000001
+    },
+    {
+     "start": 12.202000000000027,
+     "end": 14.734000000000037
+    }
+   ]
+  },
+  {
+   "id": "c3-lang",
+   "type": "shotLanguage",
+   "chapter": 3,
+   "params": {
+    "img": "cinema",
+    "fx": 0.3,
+    "fy": 0.45
+   },
+   "start": 241.1010000000001,
+   "end": 259.8060000000001,
+   "duration": 18.704999999999984,
+   "trans": 0.6,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 7.40900000000002
+    },
+    {
+     "start": 7.609000000000009,
+     "end": 11.972000000000008
+    },
+    {
+     "start": 12.171999999999997,
+     "end": 18.204999999999984
+    }
+   ]
+  },
+  {
+   "id": "recap",
+   "type": "recap",
+   "chapter": 0,
+   "params": {
+    "cols": [
+     {
+      "en": "PORTRAIT",
+      "name": "人像",
+      "img": "portrait",
+      "gear": [
+       "全画幅 + 85mm",
+       "反光板 · 离机闪"
+      ],
+      "know": [
+       "焦段即距离",
+       "光位 · 柔光",
+       "情绪引导"
+      ]
+     },
+     {
+      "en": "LANDSCAPE",
+      "name": "风光",
+      "img": "landscape",
+      "gear": [
+       "超广角 + 长焦",
+       "三脚架 · 滤镜"
+      ],
+      "know": [
+       "黄金 / 蓝调时刻",
+       "动态范围",
+       "超焦距 · 三层"
+      ]
+     },
+     {
+      "en": "CINEMA",
+      "name": "电影",
+      "img": "cinema",
+      "gear": [
+       "Log + 可变ND",
+       "稳定器 · 麦克风"
+      ],
+      "know": [
+       "180° 快门",
+       "Log 调色",
+       "镜头语言"
+      ]
+     }
+    ]
+   },
+   "start": 259.8060000000001,
+   "end": 278.1890000000001,
+   "duration": 18.38299999999998,
+   "trans": 0.7,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 1.8799999999999955
+    },
+    {
+     "start": 2,
+     "end": 6.625999999999976
+    },
+    {
+     "start": 6.745999999999981,
+     "end": 11.563999999999965
+    },
+    {
+     "start": 11.683999999999969,
+     "end": 17.88299999999998
+    }
+   ]
+  },
+  {
+   "id": "outro",
+   "type": "outro",
+   "chapter": 0,
+   "params": {},
+   "start": 278.1890000000001,
+   "end": 288.559,
+   "duration": 10.369999999999948,
+   "trans": 0.9,
+   "transType": "fade",
+   "cues": [
+    {
+     "start": 0.30000000000001137,
+     "end": 2.6899999999999977
+    },
+    {
+     "start": 2.8899999999999864,
+     "end": 7.169999999999959
+    }
+   ]
+  }
+ ],
+ "lines": [
+  {
+   "id": "hook-0",
+   "scene": "hook",
+   "text": "有人拍出杂志封面，",
+   "sub": true,
+   "start": 0.15,
+   "end": 1.541,
+   "file": "build/voice/hook-0_2b81bfcd3a1f.mp3"
+  },
+  {
+   "id": "hook-1",
+   "scene": "hook",
+   "text": "有人拍出壁纸级风光，",
+   "sub": true,
+   "start": 1.661,
+   "end": 3.23,
+   "file": "build/voice/hook-1_e07fd648d01e.mp3"
+  },
+  {
+   "id": "hook-2",
+   "scene": "hook",
+   "text": "有人拍出像电影一样的画面。",
+   "sub": true,
+   "start": 3.35,
+   "end": 5.24,
+   "file": "build/voice/hook-2_e97a28a6c88e.mp3"
+  },
+  {
+   "id": "hook-3",
+   "scene": "hook",
+   "text": "他们多的，不只是器材，而是一套看不见的知识。",
+   "sub": true,
+   "start": 5.359999999999999,
+   "end": 8.873,
+   "file": "build/voice/hook-3_10a0e00ff3cd.mp3"
+  },
+  {
+   "id": "title-0",
+   "scene": "title",
+   "text": "人像、风光、电影感视频，今天给你一份完整地图。",
+   "sub": true,
+   "start": 10.673,
+   "end": 14.844000000000001,
+   "file": "build/voice/title-0_2964c34be32d.mp3"
+  },
+  {
+   "id": "map-0",
+   "scene": "map",
+   "text": "先给一个底层框架：所有大片，都在控制光、空间和时间。",
+   "sub": true,
+   "start": 16.244,
+   "end": 20.662,
+   "file": "build/voice/map-0_4fc17a110aa2.mp3"
+  },
+  {
+   "id": "map-1",
+   "scene": "map",
+   "text": "人像，核心是控制注意力，让观众只看见她；",
+   "sub": true,
+   "start": 20.862000000000002,
+   "end": 24.241000000000003,
+   "file": "build/voice/map-1_b604fc53278d.mp3"
+  },
+  {
+   "id": "map-2",
+   "scene": "map",
+   "text": "风光，核心是控制时间，在对的光里按下快门；",
+   "sub": true,
+   "start": 24.441000000000003,
+   "end": 28.077,
+   "file": "build/voice/map-2_6c9eb5b81595.mp3"
+  },
+  {
+   "id": "map-3",
+   "scene": "map",
+   "text": "电影，核心是控制运动和情绪，让画面讲故事。",
+   "sub": true,
+   "start": 28.277,
+   "end": 31.911,
+   "file": "build/voice/map-3_bcef0ddb8ddc.mp3"
+  },
+  {
+   "id": "c1-0",
+   "scene": "c1",
+   "text": "第一部分，人像大片。",
+   "sub": true,
+   "start": 32.711,
+   "end": 34.370999999999995,
+   "file": "build/voice/c1-0_5cac03154f6c.mp3"
+  },
+  {
+   "id": "c1-gear-0",
+   "scene": "c1-gear",
+   "text": "装备：一台有眼部追焦的全画幅机身，加一支85毫米大光圈定焦，这是人像的黄金组合。",
+   "sub": true,
+   "start": 35.17099999999999,
+   "end": 42.23799999999999,
+   "file": "build/voice/c1-gear-0_893c7fe7cd53.mp3"
+  },
+  {
+   "id": "c1-gear-1",
+   "scene": "c1-gear",
+   "text": "35或50毫米，用来带入环境、讲故事。",
+   "sub": true,
+   "start": 42.437999999999995,
+   "end": 45.849999999999994,
+   "file": "build/voice/c1-gear-1_d9876be449c9.mp3"
+  },
+  {
+   "id": "c1-gear-2",
+   "scene": "c1-gear",
+   "text": "再加一块反光板，和一盏能离机的闪光灯配柔光箱——从等光，变成造光。",
+   "sub": true,
+   "start": 46.05,
+   "end": 51.562,
+   "file": "build/voice/c1-gear-2_9de1ab499614.mp3"
+  },
+  {
+   "id": "c1-persp-0",
+   "scene": "c1-persp",
+   "text": "知识一：焦段的本质，是拍摄距离。",
+   "sub": true,
+   "start": 52.361999999999995,
+   "end": 55.129999999999995,
+   "file": "build/voice/c1-persp-0_b0f7c3fa534e.mp3"
+  },
+  {
+   "id": "c1-persp-1",
+   "scene": "c1-persp",
+   "text": "同样拍大头照，24mm要贴到40厘米，鼻子比耳朵大出两成多；85mm退到1.5米，差异不到一成。",
+   "sub": true,
+   "start": 55.33,
+   "end": 63.569,
+   "file": "build/voice/c1-persp-1_060de79f3e48.mp3"
+  },
+  {
+   "id": "c1-persp-2",
+   "scene": "c1-persp",
+   "text": "所以85毫米显脸小，不是镜头魔法，而是它逼你退后。",
+   "sub": true,
+   "start": 63.769,
+   "end": 68.178,
+   "file": "build/voice/c1-persp-2_399526190225.mp3"
+  },
+  {
+   "id": "c1-light-0",
+   "scene": "c1-light",
+   "text": "知识二：光位。主光从侧上方45度打来，脸颊出现一块三角光，这是伦勃朗光，最有立体感。",
+   "sub": true,
+   "start": 68.978,
+   "end": 76.75399999999999,
+   "file": "build/voice/c1-light-0_6973244f9a99.mp3"
+  },
+  {
+   "id": "c1-light-1",
+   "scene": "c1-light",
+   "text": "光在正前上方，是显瘦的蝴蝶光；放到她身后，就是发丝发亮的轮廓光。",
+   "sub": true,
+   "start": 76.954,
+   "end": 82.255,
+   "file": "build/voice/c1-light-1_51cd01034800.mp3"
+  },
+  {
+   "id": "c1-light-2",
+   "scene": "c1-light",
+   "text": "柔光的秘诀只有一句：光源越大、越近，光越柔。",
+   "sub": true,
+   "start": 82.455,
+   "end": 86.285,
+   "file": "build/voice/c1-light-2_d18a1d59ec22.mp3"
+  },
+  {
+   "id": "c1-soft-0",
+   "scene": "c1-soft",
+   "text": "再加三项软功夫：按景别控制光圈，特写收一点，保证双眼清晰；",
+   "sub": true,
+   "start": 87.085,
+   "end": 92.30499999999999,
+   "file": "build/voice/c1-soft-0_66653502d9ae.mp3"
+  },
+  {
+   "id": "c1-soft-1",
+   "scene": "c1-soft",
+   "text": "用动作引导情绪，而不是让她僵硬地摆姿势；",
+   "sub": true,
+   "start": 92.505,
+   "end": 95.676,
+   "file": "build/voice/c1-soft-1_64cce87ccdad.mp3"
+  },
+  {
+   "id": "c1-soft-2",
+   "scene": "c1-soft",
+   "text": "后期先统一肤色，再用明暗塑造轮廓。",
+   "sub": true,
+   "start": 95.87599999999999,
+   "end": 98.734,
+   "file": "build/voice/c1-soft-2_a6d1a4e0462d.mp3"
+  },
+  {
+   "id": "c2-0",
+   "scene": "c2",
+   "text": "第二部分，风光大片。",
+   "sub": true,
+   "start": 99.53399999999999,
+   "end": 101.20899999999999,
+   "file": "build/voice/c2-0_1d752c136f1a.mp3"
+  },
+  {
+   "id": "c2-gear-0",
+   "scene": "c2-gear",
+   "text": "风光的装备：一台高像素、高宽容度的机身，一支超广角加一支长焦——广角夸张前景，长焦压缩山峦。",
+   "sub": true,
+   "start": 102.00899999999999,
+   "end": 110.26299999999999,
+   "file": "build/voice/c2-gear-0_0a339dc9cd4e.mp3"
+  },
+  {
+   "id": "c2-gear-1",
+   "scene": "c2-gear",
+   "text": "一副稳固的三脚架和快门线，是长曝光和包围曝光的前提。",
+   "sub": true,
+   "start": 110.46299999999998,
+   "end": 114.68899999999998,
+   "file": "build/voice/c2-gear-1_27afcdaa6ee4.mp3"
+  },
+  {
+   "id": "c2-gear-2",
+   "scene": "c2-gear",
+   "text": "然后是滤镜三件套：偏振镜去反光，ND减光镜拉长时间，渐变灰压暗天空。",
+   "sub": true,
+   "start": 114.88899999999998,
+   "end": 120.96399999999998,
+   "file": "build/voice/c2-gear-2_9ef5242bbbc4.mp3"
+  },
+  {
+   "id": "c2-time-0",
+   "scene": "c2-time",
+   "text": "风光最重要的知识，是时间。日出后、日落前的那段黄金时刻，光线低、暖，影子被拉得很长。",
+   "sub": true,
+   "start": 121.76399999999998,
+   "end": 129.78799999999998,
+   "file": "build/voice/c2-time-0_2c89357cb009.mp3"
+  },
+  {
+   "id": "c2-time-1",
+   "scene": "c2-time",
+   "text": "太阳落下后的二三十分钟，是蓝调时刻，天空像深蓝色的丝绸。",
+   "sub": true,
+   "start": 129.98799999999997,
+   "end": 134.71799999999996,
+   "file": "build/voice/c2-time-1_8df0f31edf8d.mp3"
+  },
+  {
+   "id": "c2-time-2",
+   "scene": "c2-time",
+   "text": "而正午的光又硬又平，更适合用来踩点。",
+   "sub": true,
+   "start": 134.91799999999998,
+   "end": 137.7,
+   "file": "build/voice/c2-time-2_0a14343c73ff.mp3"
+  },
+  {
+   "id": "c2-dr-0",
+   "scene": "c2-dr",
+   "text": "知识二：动态范围。日出逆光时，天空和地面能相差十五档以上，而传感器只装得下十二到十四档。",
+   "sub": true,
+   "start": 138.5,
+   "end": 146.705,
+   "file": "build/voice/c2-dr-0_0ddcf879967f.mp3"
+  },
+  {
+   "id": "c2-dr-1",
+   "scene": "c2-dr",
+   "text": "解决方法：用渐变灰压暗天空，或者包围曝光，后期合成。",
+   "sub": true,
+   "start": 146.905,
+   "end": 151.627,
+   "file": "build/voice/c2-dr-1_13cc26dea6a6.mp3"
+  },
+  {
+   "id": "c2-nd-0",
+   "scene": "c2-nd",
+   "text": "ND1000能减掉10档光：1/30秒，变成34秒。",
+   "sub": true,
+   "start": 152.42700000000002,
+   "end": 157.02500000000003,
+   "file": "build/voice/c2-nd-0_44289dd0cf3d.mp3"
+  },
+  {
+   "id": "c2-nd-1",
+   "scene": "c2-nd",
+   "text": "海浪变成雾，云变成线，时间被你写进了一张照片。",
+   "sub": true,
+   "start": 157.22500000000002,
+   "end": 161.28500000000003,
+   "file": "build/voice/c2-nd-1_05b054990f06.mp3"
+  },
+  {
+   "id": "c2-focus-0",
+   "scene": "c2-focus",
+   "text": "知识三：构图要有前景、中景、远景三层，再用引导线把视线带进画面深处。",
+   "sub": true,
+   "start": 162.08500000000004,
+   "end": 168.50600000000003,
+   "file": "build/voice/c2-focus-0_70cfa5cd9576.mp3"
+  },
+  {
+   "id": "c2-focus-1",
+   "scene": "c2-focus",
+   "text": "想让三层都清晰，用超焦距：24mm、F11，对焦约1.8米，从0.9米到无穷远全部清楚。",
+   "sub": true,
+   "start": 168.70600000000005,
+   "end": 177.42900000000006,
+   "file": "build/voice/c2-focus-1_8bc302d2509b.mp3"
+  },
+  {
+   "id": "c2-focus-2",
+   "scene": "c2-focus",
+   "text": "近景还不够锐？那就焦点堆栈：分段对焦多拍几张，后期合成。",
+   "sub": true,
+   "start": 177.62900000000005,
+   "end": 182.85700000000006,
+   "file": "build/voice/c2-focus-2_19dec820a15f.mp3"
+  },
+  {
+   "id": "c3-0",
+   "scene": "c3",
+   "text": "第三部分，电影级视频。电影感不靠一台贵相机，它是一套规则。",
+   "sub": true,
+   "start": 183.65700000000007,
+   "end": 188.80700000000007,
+   "file": "build/voice/c3-0_565fc8299475.mp3"
+  },
+  {
+   "id": "c3-gear-0",
+   "scene": "c3-gear",
+   "text": "装备：能录10-bit Log的机身，一片可变ND，一台稳定器。",
+   "sub": true,
+   "start": 189.60700000000008,
+   "end": 194.3950000000001,
+   "file": "build/voice/c3-gear-0_37314e7a83af.mp3"
+  },
+  {
+   "id": "c3-gear-1",
+   "scene": "c3-gear",
+   "text": "最常被忽略的两样：一套无线麦克风，和一台能看波形的监视器。",
+   "sub": true,
+   "start": 194.59500000000008,
+   "end": 199.33600000000007,
+   "file": "build/voice/c3-gear-1_19fb072161bf.mp3"
+  },
+  {
+   "id": "c3-gear-2",
+   "scene": "c3-gear",
+   "text": "因为观众能原谅画面的瑕疵，却很难忍受糟糕的声音。",
+   "sub": true,
+   "start": 199.5360000000001,
+   "end": 203.37900000000008,
+   "file": "build/voice/c3-gear-2_0ff1d38ee8be.mp3"
+  },
+  {
+   "id": "c3-shutter-0",
+   "scene": "c3-shutter",
+   "text": "规则一：180度快门。快门约等于帧率倒数的一半，24帧就用1/50秒。",
+   "sub": true,
+   "start": 204.1790000000001,
+   "end": 211.3760000000001,
+   "file": "build/voice/c3-shutter-0_5241cde9c1b1.mp3"
+  },
+  {
+   "id": "c3-shutter-1",
+   "scene": "c3-shutter",
+   "text": "这样的运动模糊最接近人眼；快门太快，画面就像一卡一卡的监控录像。",
+   "sub": true,
+   "start": 211.57600000000008,
+   "end": 216.7450000000001,
+   "file": "build/voice/c3-shutter-1_527d14f3e58e.mp3"
+  },
+  {
+   "id": "c3-shutter-2",
+   "scene": "c3-shutter",
+   "text": "可是晴天F2.8、1/50秒，就算ISO 100也会过曝约6档——所以可变ND是必需品。",
+   "sub": true,
+   "start": 216.94500000000008,
+   "end": 225.36700000000008,
+   "file": "build/voice/c3-shutter-2_bd99c19cf056.mp3"
+  },
+  {
+   "id": "c3-log-0",
+   "scene": "c3-log",
+   "text": "规则二：拍Log，再调色。Log画面灰灰的，是因为它把亮部和暗部都存了下来。",
+   "sub": true,
+   "start": 226.1670000000001,
+   "end": 232.34300000000007,
+   "file": "build/voice/c3-log-0_9085443ae674.mp3"
+  },
+  {
+   "id": "c3-log-1",
+   "scene": "c3-log",
+   "text": "套上LUT还原，再做色彩分级：暖肤色、冷阴影，情绪就出来了。",
+   "sub": true,
+   "start": 232.5430000000001,
+   "end": 237.86900000000009,
+   "file": "build/voice/c3-log-1_5fd25817ce4b.mp3"
+  },
+  {
+   "id": "c3-log-2",
+   "scene": "c3-log",
+   "text": "曝光别靠眼睛，看波形和斑马纹。",
+   "sub": true,
+   "start": 238.0690000000001,
+   "end": 240.6010000000001,
+   "file": "build/voice/c3-log-2_83d25c450b55.mp3"
+  },
+  {
+   "id": "c3-lang-0",
+   "scene": "c3-lang",
+   "text": "规则三，也是最核心的：镜头语言。远景交代环境，中景交代关系，特写交代情绪。",
+   "sub": true,
+   "start": 241.40100000000012,
+   "end": 248.51000000000013,
+   "file": "build/voice/c3-lang-0_f1dd023ab9ec.mp3"
+  },
+  {
+   "id": "c3-lang-1",
+   "scene": "c3-lang",
+   "text": "运镜要有动机：推，是走进内心；拉，是抽离与孤独。",
+   "sub": true,
+   "start": 248.71000000000012,
+   "end": 253.07300000000012,
+   "file": "build/voice/c3-lang-1_807855055b0d.mp3"
+  },
+  {
+   "id": "c3-lang-2",
+   "scene": "c3-lang",
+   "text": "对话守住180度轴线，剪辑跟着情绪走。电影感，就是每个镜头都有理由。",
+   "sub": true,
+   "start": 253.2730000000001,
+   "end": 259.3060000000001,
+   "file": "build/voice/c3-lang-2_b3d06f639ee4.mp3"
+  },
+  {
+   "id": "recap-0",
+   "scene": "recap",
+   "text": "最后，一张图带走：",
+   "sub": true,
+   "start": 260.1060000000001,
+   "end": 261.6860000000001,
+   "file": "build/voice/recap-0_5e4cf57faa8e.mp3"
+  },
+  {
+   "id": "recap-1",
+   "scene": "recap",
+   "text": "人像：85毫米加反光板，学焦段、光位和情绪引导；",
+   "sub": true,
+   "start": 261.8060000000001,
+   "end": 266.4320000000001,
+   "file": "build/voice/recap-1_cdb17af97c05.mp3"
+  },
+  {
+   "id": "recap-2",
+   "scene": "recap",
+   "text": "风光：三脚架加滤镜，学光线时间、动态范围和超焦距；",
+   "sub": true,
+   "start": 266.5520000000001,
+   "end": 271.37000000000006,
+   "file": "build/voice/recap-2_a7f9821f3e6e.mp3"
+  },
+  {
+   "id": "recap-3",
+   "scene": "recap",
+   "text": "电影：Log、ND、稳定器和麦克风，学180度快门、调色和镜头语言。",
+   "sub": true,
+   "start": 271.49000000000007,
+   "end": 277.6890000000001,
+   "file": "build/voice/recap-3_6fb9b9b80d1f.mp3"
+  },
+  {
+   "id": "outro-0",
+   "scene": "outro",
+   "text": "装备决定下限，知识决定上限。",
+   "sub": true,
+   "start": 278.4890000000001,
+   "end": 280.8790000000001,
+   "file": "build/voice/outro-0_a7706026708a.mp3"
+  },
+  {
+   "id": "outro-1",
+   "scene": "outro",
+   "text": "人像拍的是人，风光拍的是等待，而电影，拍的是时间。",
+   "sub": true,
+   "start": 281.07900000000006,
+   "end": 285.35900000000004,
+   "file": "build/voice/outro-1_54e11cea3e20.mp3"
+  }
+ ],
+ "assets": {
+  "portrait": "build/img/portrait.jpg",
+  "landscape": "build/img/landscape.jpg",
+  "cinema": "build/img/cinema.jpg",
+  "gearP": "build/img/gearP.jpg",
+  "gearL": "build/img/gearL.jpg",
+  "gearC": "build/img/gearC.jpg",
+  "seaShort": "build/img/seaShort.jpg",
+  "seaLong": "build/img/seaLong.jpg"
+ }
+}

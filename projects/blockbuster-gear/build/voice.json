@@ -1,0 +1,497 @@
+{
+ "hook-0": {
+  "file": "build/voice/hook-0_2b81bfcd3a1f.mp3",
+  "duration": 1.391,
+  "hash": "2b81bfcd3a1f",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "chat",
+  "rate": "1.14",
+  "pitch": "0%"
+ },
+ "hook-1": {
+  "file": "build/voice/hook-1_e07fd648d01e.mp3",
+  "duration": 1.569,
+  "hash": "e07fd648d01e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "chat",
+  "rate": "1.14",
+  "pitch": "0%"
+ },
+ "hook-3": {
+  "file": "build/voice/hook-3_10a0e00ff3cd.mp3",
+  "duration": 3.513,
+  "hash": "10a0e00ff3cd",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "chat",
+  "rate": "1.14",
+  "pitch": "0%"
+ },
+ "hook-2": {
+  "file": "build/voice/hook-2_e97a28a6c88e.mp3",
+  "duration": 1.89,
+  "hash": "e97a28a6c88e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "chat",
+  "rate": "1.14",
+  "pitch": "0%"
+ },
+ "map-1": {
+  "file": "build/voice/map-1_b604fc53278d.mp3",
+  "duration": 3.379,
+  "hash": "b604fc53278d",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "title-0": {
+  "file": "build/voice/title-0_2964c34be32d.mp3",
+  "duration": 4.171,
+  "hash": "2964c34be32d",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "friendly",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "map-0": {
+  "file": "build/voice/map-0_4fc17a110aa2.mp3",
+  "duration": 4.418,
+  "hash": "4fc17a110aa2",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "map-2": {
+  "file": "build/voice/map-2_6c9eb5b81595.mp3",
+  "duration": 3.636,
+  "hash": "6c9eb5b81595",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-0": {
+  "file": "build/voice/c1-0_5cac03154f6c.mp3",
+  "duration": 1.66,
+  "hash": "5cac03154f6c",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "map-3": {
+  "file": "build/voice/map-3_bcef0ddb8ddc.mp3",
+  "duration": 3.634,
+  "hash": "bcef0ddb8ddc",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-gear-1": {
+  "file": "build/voice/c1-gear-1_d9876be449c9.mp3",
+  "duration": 3.412,
+  "hash": "d9876be449c9",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-gear-0": {
+  "file": "build/voice/c1-gear-0_893c7fe7cd53.mp3",
+  "duration": 7.067,
+  "hash": "893c7fe7cd53",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-persp-0": {
+  "file": "build/voice/c1-persp-0_b0f7c3fa534e.mp3",
+  "duration": 2.768,
+  "hash": "b0f7c3fa534e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-gear-2": {
+  "file": "build/voice/c1-gear-2_9de1ab499614.mp3",
+  "duration": 5.512,
+  "hash": "9de1ab499614",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-persp-1": {
+  "file": "build/voice/c1-persp-1_060de79f3e48.mp3",
+  "duration": 8.239,
+  "hash": "060de79f3e48",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-persp-2": {
+  "file": "build/voice/c1-persp-2_399526190225.mp3",
+  "duration": 4.409,
+  "hash": "399526190225",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-light-1": {
+  "file": "build/voice/c1-light-1_51cd01034800.mp3",
+  "duration": 5.301,
+  "hash": "51cd01034800",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-light-0": {
+  "file": "build/voice/c1-light-0_6973244f9a99.mp3",
+  "duration": 7.776,
+  "hash": "6973244f9a99",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-light-2": {
+  "file": "build/voice/c1-light-2_d18a1d59ec22.mp3",
+  "duration": 3.83,
+  "hash": "d18a1d59ec22",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-soft-0": {
+  "file": "build/voice/c1-soft-0_66653502d9ae.mp3",
+  "duration": 5.22,
+  "hash": "66653502d9ae",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-soft-2": {
+  "file": "build/voice/c1-soft-2_a6d1a4e0462d.mp3",
+  "duration": 2.858,
+  "hash": "a6d1a4e0462d",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-0": {
+  "file": "build/voice/c2-0_1d752c136f1a.mp3",
+  "duration": 1.675,
+  "hash": "1d752c136f1a",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c1-soft-1": {
+  "file": "build/voice/c1-soft-1_64cce87ccdad.mp3",
+  "duration": 3.171,
+  "hash": "64cce87ccdad",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-gear-0": {
+  "file": "build/voice/c2-gear-0_0a339dc9cd4e.mp3",
+  "duration": 8.254,
+  "hash": "0a339dc9cd4e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-gear-1": {
+  "file": "build/voice/c2-gear-1_27afcdaa6ee4.mp3",
+  "duration": 4.226,
+  "hash": "27afcdaa6ee4",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-gear-2": {
+  "file": "build/voice/c2-gear-2_9ef5242bbbc4.mp3",
+  "duration": 6.075,
+  "hash": "9ef5242bbbc4",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-time-0": {
+  "file": "build/voice/c2-time-0_2c89357cb009.mp3",
+  "duration": 8.024,
+  "hash": "2c89357cb009",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-time-2": {
+  "file": "build/voice/c2-time-2_0a14343c73ff.mp3",
+  "duration": 2.782,
+  "hash": "0a14343c73ff",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-time-1": {
+  "file": "build/voice/c2-time-1_8df0f31edf8d.mp3",
+  "duration": 4.73,
+  "hash": "8df0f31edf8d",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-dr-1": {
+  "file": "build/voice/c2-dr-1_13cc26dea6a6.mp3",
+  "duration": 4.722,
+  "hash": "13cc26dea6a6",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-dr-0": {
+  "file": "build/voice/c2-dr-0_0ddcf879967f.mp3",
+  "duration": 8.205,
+  "hash": "0ddcf879967f",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-nd-0": {
+  "file": "build/voice/c2-nd-0_44289dd0cf3d.mp3",
+  "duration": 4.598,
+  "hash": "44289dd0cf3d",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-nd-1": {
+  "file": "build/voice/c2-nd-1_05b054990f06.mp3",
+  "duration": 4.06,
+  "hash": "05b054990f06",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-focus-0": {
+  "file": "build/voice/c2-focus-0_70cfa5cd9576.mp3",
+  "duration": 6.421,
+  "hash": "70cfa5cd9576",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-focus-1": {
+  "file": "build/voice/c2-focus-1_8bc302d2509b.mp3",
+  "duration": 8.723,
+  "hash": "8bc302d2509b",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c2-focus-2": {
+  "file": "build/voice/c2-focus-2_19dec820a15f.mp3",
+  "duration": 5.228,
+  "hash": "19dec820a15f",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-0": {
+  "file": "build/voice/c3-0_565fc8299475.mp3",
+  "duration": 5.15,
+  "hash": "565fc8299475",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-gear-0": {
+  "file": "build/voice/c3-gear-0_37314e7a83af.mp3",
+  "duration": 4.788,
+  "hash": "37314e7a83af",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-gear-1": {
+  "file": "build/voice/c3-gear-1_19fb072161bf.mp3",
+  "duration": 4.741,
+  "hash": "19fb072161bf",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-gear-2": {
+  "file": "build/voice/c3-gear-2_0ff1d38ee8be.mp3",
+  "duration": 3.843,
+  "hash": "0ff1d38ee8be",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-shutter-0": {
+  "file": "build/voice/c3-shutter-0_5241cde9c1b1.mp3",
+  "duration": 7.197,
+  "hash": "5241cde9c1b1",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-shutter-1": {
+  "file": "build/voice/c3-shutter-1_527d14f3e58e.mp3",
+  "duration": 5.169,
+  "hash": "527d14f3e58e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-shutter-2": {
+  "file": "build/voice/c3-shutter-2_bd99c19cf056.mp3",
+  "duration": 8.422,
+  "hash": "bd99c19cf056",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-log-1": {
+  "file": "build/voice/c3-log-1_5fd25817ce4b.mp3",
+  "duration": 5.326,
+  "hash": "5fd25817ce4b",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-log-0": {
+  "file": "build/voice/c3-log-0_9085443ae674.mp3",
+  "duration": 6.176,
+  "hash": "9085443ae674",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-log-2": {
+  "file": "build/voice/c3-log-2_83d25c450b55.mp3",
+  "duration": 2.532,
+  "hash": "83d25c450b55",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-lang-1": {
+  "file": "build/voice/c3-lang-1_807855055b0d.mp3",
+  "duration": 4.363,
+  "hash": "807855055b0d",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "recap-0": {
+  "file": "build/voice/recap-0_5e4cf57faa8e.mp3",
+  "duration": 1.58,
+  "hash": "5e4cf57faa8e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-lang-0": {
+  "file": "build/voice/c3-lang-0_f1dd023ab9ec.mp3",
+  "duration": 7.109,
+  "hash": "f1dd023ab9ec",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "c3-lang-2": {
+  "file": "build/voice/c3-lang-2_b3d06f639ee4.mp3",
+  "duration": 6.033,
+  "hash": "b3d06f639ee4",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "recap-1": {
+  "file": "build/voice/recap-1_cdb17af97c05.mp3",
+  "duration": 4.626,
+  "hash": "cdb17af97c05",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "recap-2": {
+  "file": "build/voice/recap-2_a7f9821f3e6e.mp3",
+  "duration": 4.818,
+  "hash": "a7f9821f3e6e",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "recap-3": {
+  "file": "build/voice/recap-3_6fb9b9b80d1f.mp3",
+  "duration": 6.199,
+  "hash": "6fb9b9b80d1f",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "outro-0": {
+  "file": "build/voice/outro-0_a7706026708a.mp3",
+  "duration": 2.39,
+  "hash": "a7706026708a",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ },
+ "outro-1": {
+  "file": "build/voice/outro-1_54e11cea3e20.mp3",
+  "duration": 4.28,
+  "hash": "54e11cea3e20",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "style": "gentle",
+  "rate": "1.12",
+  "pitch": "0%"
+ }
+}

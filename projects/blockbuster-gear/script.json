@@ -1,0 +1,185 @@
+{
+  "title": "三种大片｜装备与知识全地图",
+  "subtitle": "人像 · 风光 · 电影级视频",
+  "video": { "width": 1920, "height": 1080, "fps": 30 },
+  "hud": { "label": "BLOCKBUSTER NOTES", "tag": "VOL.02" },
+  "voice": {
+    "name": "zh-CN-XiaoxiaoNeural",
+    "style": "gentle",
+    "rate": "1.12",
+    "pitch": "0%",
+    "format": "audio-24khz-48kbitrate-mono-mp3"
+  },
+  "timing": { "lead": 0.3, "gap": 0.2, "tail": 0.5, "trans": 0.6 },
+  "assets": {
+    "portrait": "assets/images/portrait_hero",
+    "landscape": "assets/images/landscape_hero",
+    "cinema": "assets/images/cinema_hero",
+    "gearP": "assets/images/gear_portrait",
+    "gearL": "assets/images/gear_landscape",
+    "gearC": "assets/images/gear_cinema",
+    "seaShort": "assets/images/seascape_short",
+    "seaLong": "assets/images/seascape_long"
+  },
+  "scenes": [
+    {
+      "id": "hook", "type": "opener", "lead": 0.15, "gap": 0.12, "tail": 0.3, "style": "chat", "rate": "1.14",
+      "params": { "sfx": [ { "kind": "shutter", "cue": 1, "dt": -0.06 }, { "kind": "shutter", "cue": 2, "dt": -0.06 }, { "kind": "boom", "cue": 3, "amp": 0.7 } ] },
+      "lines": [
+        "有人拍出杂志封面，",
+        "有人拍出壁纸级风光，",
+        "有人拍出像电影一样的画面。",
+        "他们多的，不只是器材，而是一套看不见的知识。"
+      ]
+    },
+    {
+      "id": "title", "type": "title", "trans": 0.5, "transType": "flash", "lead": 1.5, "tail": 1.1, "style": "friendly",
+      "lines": [ "人像、风光、电影感视频，今天给你一份完整地图。" ]
+    },
+    {
+      "id": "map", "type": "thesis", "trans": 0.6,
+      "lines": [
+        "先给一个底层框架：所有大片，都在控制光、空间和时间。",
+        "人像，核心是控制注意力，让观众只看见她；",
+        "风光，核心是控制时间，在对的光里按下快门；",
+        "电影，核心是控制运动和情绪，让画面讲故事。"
+      ]
+    },
+
+    { "id": "c1", "type": "chapter", "chapter": 1,
+      "params": { "num": "01", "title": "人像大片", "sub": "控制注意力 · 让观众只看见她", "en": "PORTRAIT", "img": "portrait", "tag": "85mm  ƒ/1.4", "sfx": [ { "kind": "whoosh" } ] },
+      "lines": [ "第一部分，人像大片。" ] },
+    { "id": "c1-gear", "type": "gearBoard", "chapter": 1,
+      "params": { "img": "gearP", "heading": "人像装备清单", "items": [
+        { "cue": 0, "icon": "camera", "name": "全画幅机身", "spec": "眼部追焦 · 高感干净", "tier": "必备" },
+        { "cue": 0, "icon": "lens", "name": "85mm  F1.4 / F1.8", "spec": "黄金人像焦段 · 背景化开", "tier": "必备" },
+        { "cue": 1, "icon": "lens2", "name": "35mm / 50mm", "spec": "带入环境 · 讲故事", "tier": "进阶" },
+        { "cue": 2, "icon": "reflector", "name": "五合一反光板", "spec": "百元级 · 最划算的补光", "tier": "必备" },
+        { "cue": 2, "icon": "flash", "name": "离机闪光 + 柔光箱", "spec": "从等光，变成造光", "tier": "进阶" }
+      ] },
+      "lines": [
+        "装备：一台有眼部追焦的全画幅机身，加一支85毫米大光圈定焦，这是人像的黄金组合。",
+        "35或50毫米，用来带入环境、讲故事。",
+        "再加一块反光板，和一盏能离机的闪光灯配柔光箱——从等光，变成造光。"
+      ] },
+    { "id": "c1-persp", "type": "focalPerspective", "chapter": 1,
+      "lines": [
+        "知识一：焦段的本质，是拍摄距离。",
+        { "text": "同样拍大头照，24mm要贴到40厘米，鼻子比耳朵大出两成多；85mm退到1.5米，差异不到一成。", "say": "同样拍大头照，二十四毫米要贴到四十厘米，鼻子比耳朵大出两成多；八十五毫米退到一米五，差异不到一成。" },
+        "所以85毫米显脸小，不是镜头魔法，而是它逼你退后。"
+      ] },
+    { "id": "c1-light", "type": "lightPositions", "chapter": 1,
+      "lines": [
+        "知识二：光位。主光从侧上方45度打来，脸颊出现一块三角光，这是伦勃朗光，最有立体感。",
+        "光在正前上方，是显瘦的蝴蝶光；放到她身后，就是发丝发亮的轮廓光。",
+        "柔光的秘诀只有一句：光源越大、越近，光越柔。"
+      ] },
+    { "id": "c1-soft", "type": "knowCards", "chapter": 1,
+      "params": { "img": "portrait", "kb": [1.06, 0.62, 0.42, 1.14, 0.62, 0.38], "cards": [
+        { "cue": 0, "kicker": "APERTURE", "title": "特写 F2–F2.8 · 半身全开", "body": "保证双眼都在焦内，再谈虚化" },
+        { "cue": 1, "kicker": "DIRECTING", "title": "给动作，不给姿势", "body": "走两步回头、整理头发，抓两个动作之间" },
+        { "cue": 2, "kicker": "RETOUCH", "title": "统一肤色 · 明暗塑形", "body": "先修色，再修光，最后才是修脸" }
+      ] },
+      "lines": [
+        "再加三项软功夫：按景别控制光圈，特写收一点，保证双眼清晰；",
+        "用动作引导情绪，而不是让她僵硬地摆姿势；",
+        "后期先统一肤色，再用明暗塑造轮廓。"
+      ] },
+
+    { "id": "c2", "type": "chapter", "chapter": 2,
+      "params": { "num": "02", "title": "风光大片", "sub": "控制时间 · 在对的光里等待", "en": "LANDSCAPE", "img": "landscape", "tag": "16–35mm  ƒ/11", "sfx": [ { "kind": "whoosh" } ] },
+      "lines": [ "第二部分，风光大片。" ] },
+    { "id": "c2-gear", "type": "gearBoard", "chapter": 2,
+      "params": { "img": "gearL", "heading": "风光装备清单", "items": [
+        { "cue": 0, "icon": "camera", "name": "高像素 · 高宽容度机身", "spec": "暗部拉得回，大图放得开", "tier": "必备" },
+        { "cue": 0, "icon": "lens", "name": "16–35mm  +  70–200mm", "spec": "广角夸张前景 · 长焦压缩山峦", "tier": "必备" },
+        { "cue": 1, "icon": "tripod", "name": "稳固三脚架 + 快门线", "spec": "长曝光与包围曝光的前提", "tier": "必备" },
+        { "cue": 2, "icon": "cpl", "name": "CPL 偏振镜", "spec": "去反光 · 天空更蓝 · 水面通透", "tier": "必备" },
+        { "cue": 2, "icon": "nd", "name": "ND 减光镜  /  GND 渐变灰", "spec": "ND 拉长时间 · GND 压暗天空", "tier": "进阶" }
+      ] },
+      "lines": [
+        "风光的装备：一台高像素、高宽容度的机身，一支超广角加一支长焦——广角夸张前景，长焦压缩山峦。",
+        "一副稳固的三脚架和快门线，是长曝光和包围曝光的前提。",
+        "然后是滤镜三件套：偏振镜去反光，ND减光镜拉长时间，渐变灰压暗天空。"
+      ] },
+    { "id": "c2-time", "type": "lightClock", "chapter": 2,
+      "lines": [
+        "风光最重要的知识，是时间。日出后、日落前的那段黄金时刻，光线低、暖，影子被拉得很长。",
+        "太阳落下后的二三十分钟，是蓝调时刻，天空像深蓝色的丝绸。",
+        "而正午的光又硬又平，更适合用来踩点。"
+      ] },
+    { "id": "c2-dr", "type": "dynamicRange", "chapter": 2,
+      "params": { "img": "landscape" },
+      "lines": [
+        "知识二：动态范围。日出逆光时，天空和地面能相差十五档以上，而传感器只装得下十二到十四档。",
+        "解决方法：用渐变灰压暗天空，或者包围曝光，后期合成。"
+      ] },
+    { "id": "c2-nd", "type": "ndLong", "chapter": 2,
+      "params": { "sfx": [ { "kind": "shutter", "cue": 1, "dt": -0.1 } ] },
+      "lines": [
+        { "text": "ND1000能减掉10档光：1/30秒，变成34秒。", "say": "ND一千，能减掉十档光：三十分之一秒，变成三十四秒。" },
+        "海浪变成雾，云变成线，时间被你写进了一张照片。"
+      ] },
+    { "id": "c2-focus", "type": "hyperfocal", "chapter": 2,
+      "lines": [
+        "知识三：构图要有前景、中景、远景三层，再用引导线把视线带进画面深处。",
+        { "text": "想让三层都清晰，用超焦距：24mm、F11，对焦约1.8米，从0.9米到无穷远全部清楚。", "say": "想让三层都清晰，就用超焦距：二十四毫米、F11，对焦在大约一点八米，从零点九米到无穷远，全部清楚。" },
+        "近景还不够锐？那就焦点堆栈：分段对焦多拍几张，后期合成。"
+      ] },
+
+    { "id": "c3", "type": "chapter", "chapter": 3,
+      "params": { "num": "03", "title": "电影级视频", "sub": "控制运动与情绪 · 让画面讲故事", "en": "CINEMA", "img": "cinema", "tag": "24fps  ·  1/50s", "sfx": [ { "kind": "whoosh" } ] },
+      "lines": [ "第三部分，电影级视频。电影感不靠一台贵相机，它是一套规则。" ] },
+    { "id": "c3-gear", "type": "gearBoard", "chapter": 3,
+      "params": { "img": "gearC", "heading": "电影感装备清单", "items": [
+        { "cue": 0, "icon": "camera", "name": "10-bit Log 机身", "spec": "保住宽容度 · 给调色留空间", "tier": "必备" },
+        { "cue": 0, "icon": "nd", "name": "可变 ND", "spec": "白天也能守住 1/50 快门", "tier": "必备" },
+        { "cue": 0, "icon": "gimbal", "name": "稳定器 / 滑轨", "spec": "运动要稳，更要有动机", "tier": "必备" },
+        { "cue": 1, "icon": "mic", "name": "无线领夹麦 + 枪麦", "spec": "声音是电影的另一半", "tier": "必备" },
+        { "cue": 1, "icon": "monitor", "name": "监视器 + 补光灯", "spec": "看波形测曝光 · 控制光比", "tier": "进阶" }
+      ] },
+      "lines": [
+        { "text": "装备：能录10-bit Log的机身，一片可变ND，一台稳定器。", "say": "装备：能录十比特Log的机身，一片可变ND，一台稳定器。" },
+        "最常被忽略的两样：一套无线麦克风，和一台能看波形的监视器。",
+        "因为观众能原谅画面的瑕疵，却很难忍受糟糕的声音。"
+      ] },
+    { "id": "c3-shutter", "type": "shutter180", "chapter": 3,
+      "lines": [
+        { "text": "规则一：180度快门。快门约等于帧率倒数的一半，24帧就用1/50秒。", "say": "规则一：一百八十度快门。快门速度，约等于帧率倒数的一半，二十四帧，就用五十分之一秒。" },
+        "这样的运动模糊最接近人眼；快门太快，画面就像一卡一卡的监控录像。",
+        { "text": "可是晴天F2.8、1/50秒，就算ISO 100也会过曝约6档——所以可变ND是必需品。", "say": "可是晴天，F2.8、五十分之一秒，就算ISO一百，也会过曝大约六档。所以可变ND，是必需品。" }
+      ] },
+    { "id": "c3-log", "type": "logGrade", "chapter": 3,
+      "params": { "img": "cinema" },
+      "lines": [
+        "规则二：拍Log，再调色。Log画面灰灰的，是因为它把亮部和暗部都存了下来。",
+        "套上LUT还原，再做色彩分级：暖肤色、冷阴影，情绪就出来了。",
+        "曝光别靠眼睛，看波形和斑马纹。"
+      ] },
+    { "id": "c3-lang", "type": "shotLanguage", "chapter": 3,
+      "params": { "img": "cinema", "fx": 0.3, "fy": 0.45 },
+      "lines": [
+        "规则三，也是最核心的：镜头语言。远景交代环境，中景交代关系，特写交代情绪。",
+        "运镜要有动机：推，是走进内心；拉，是抽离与孤独。",
+        "对话守住180度轴线，剪辑跟着情绪走。电影感，就是每个镜头都有理由。"
+      ] },
+
+    { "id": "recap", "type": "recap", "gap": 0.12, "trans": 0.7,
+      "params": { "cols": [
+        { "en": "PORTRAIT", "name": "人像", "img": "portrait", "gear": ["全画幅 + 85mm", "反光板 · 离机闪"], "know": ["焦段即距离", "光位 · 柔光", "情绪引导"] },
+        { "en": "LANDSCAPE", "name": "风光", "img": "landscape", "gear": ["超广角 + 长焦", "三脚架 · 滤镜"], "know": ["黄金 / 蓝调时刻", "动态范围", "超焦距 · 三层"] },
+        { "en": "CINEMA", "name": "电影", "img": "cinema", "gear": ["Log + 可变ND", "稳定器 · 麦克风"], "know": ["180° 快门", "Log 调色", "镜头语言"] }
+      ] },
+      "lines": [
+        "最后，一张图带走：",
+        "人像：85毫米加反光板，学焦段、光位和情绪引导；",
+        "风光：三脚架加滤镜，学光线时间、动态范围和超焦距；",
+        "电影：Log、ND、稳定器和麦克风，学180度快门、调色和镜头语言。"
+      ] },
+    { "id": "outro", "type": "outro", "trans": 0.9, "tail": 3.2,
+      "lines": [
+        "装备决定下限，知识决定上限。",
+        "人像拍的是人，风光拍的是等待，而电影，拍的是时间。"
+      ] }
+  ]
+}

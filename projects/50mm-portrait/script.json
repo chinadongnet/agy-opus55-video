@@ -1,0 +1,169 @@
+{
+  "title": "50mm F1.2｜拍出她最爱的那张",
+  "subtitle": "七个重要却总被忽略的人像细节",
+  "video": { "width": 1920, "height": 1080, "fps": 30 },
+  "voice": {
+    "name": "zh-CN-XiaoxiaoNeural",
+    "style": "gentle",
+    "rate": "1.08",
+    "pitch": "0%",
+    "format": "audio-24khz-48kbitrate-mono-mp3"
+  },
+  "timing": { "lead": 0.35, "gap": 0.22, "tail": 0.55, "trans": 0.6 },
+  "assets": {
+    "hero": "assets/images/hero_backlight",
+    "bad": "assets/images/bad_snapshot",
+    "eye": "assets/images/eye_closeup_thin_dof",
+    "half": "assets/images/halfbody_f12",
+    "fg": "assets/images/foreground_bokeh",
+    "night": "assets/images/night_bokeh",
+    "candid": "assets/images/candid_laugh",
+    "lens": "assets/images/lens_product",
+    "tree": "assets/images/under_tree_shade"
+  },
+  "scenes": [
+    {
+      "id": "hook", "type": "hook", "lead": 0.12, "gap": 0.12, "tail": 0.2, "trans": 0, "style": "chat", "rate": "1.16",
+      "lines": [
+        { "text": "同一个女孩，同一支50mm F1.2。", "say": "同一个女孩，同一支F1.2。" },
+        "这张，她让你删掉。",
+        "这张，她设成了头像。",
+        "差别不在器材，在七个没人告诉你的细节。"
+      ]
+    },
+    {
+      "id": "title", "type": "title", "trans": 0.5, "transType": "flash", "lead": 1.6, "tail": 1.2, "style": "friendly", "rate": "1.08",
+      "lines": [ "今天，一次讲透。" ]
+    },
+
+    { "id": "c1", "type": "chapter", "chapter": 1, "params": { "num": "01", "title": "F1.2 不是越大越好", "en": "DEPTH OF FIELD" },
+      "lines": [ "第一个误区：光圈全开，就一定好看。" ] },
+    { "id": "c1-dof", "type": "dofDiagram", "chapter": 1,
+      "lines": [
+        { "text": "在1米距离，F1.2的清晰范围只有大约3厘米。", "say": "在一米距离，F1.2的清晰范围，只有大约三厘米。" },
+        { "text": "而退到2.5米拍半身，清晰范围接近18厘米。", "say": "而退到两米五拍半身，清晰范围接近十八厘米。" }
+      ] },
+    { "id": "c1-eye", "type": "photo", "chapter": 1,
+      "params": {
+        "img": "eye", "kb": [1.04, 0.5, 0.4, 1.12, 0.55, 0.38],
+        "rings": [
+          { "x": 0.525, "y": 0.31, "r": 72, "label": "近眼 · 清晰", "ok": true, "at": 0, "delay": 0.3 },
+          { "x": 0.385, "y": 0.66, "r": 66, "label": "鼻尖 · 已虚", "ok": false, "at": 0, "delay": 2.2, "side": -1 },
+          { "x": 0.315, "y": 0.35, "r": 52, "label": "远眼 · 已虚", "ok": false, "at": 0, "delay": 3.4, "side": -1 }
+        ]
+      },
+      "lines": [ "贴近拍特写时，近处的眼睛清楚了，鼻尖和远处的眼睛却已经开始发虚。" ] },
+    { "id": "c1-rule", "type": "photo", "chapter": 1,
+      "params": {
+        "img": "half", "kb": [1.12, 0.6, 0.45, 1.02, 0.6, 0.45], "dimSide": "left",
+        "cards": [
+          { "at": 0, "kicker": "CLOSE-UP", "title": "特写  F2 – F2.8", "body": "对焦永远放在离镜头更近的那只眼睛" },
+          { "at": 1, "kicker": "HALF BODY", "title": "半身  F1.2 · 2.5m", "body": "整张脸都在焦内，背景彻底化开" }
+        ]
+      },
+      "lines": [
+        { "text": "所以拍特写，把光圈收到F2到F2.8，对焦永远放在更近的那只眼睛；", "say": "所以拍特写，把光圈收到F2到F2.8，对焦永远放在更近的那只眼睛；" },
+        "把F1.2，留给两三米外的半身。"
+      ] },
+
+    { "id": "c2", "type": "chapter", "chapter": 2, "params": { "num": "02", "title": "距离，悄悄改变脸型", "en": "PERSPECTIVE" },
+      "lines": [ "第二，拍摄距离会悄悄改变她的脸型。" ] },
+    { "id": "c2-face", "type": "perspective", "chapter": 2,
+      "lines": [
+        "贴得太近，离镜头最近的鼻子和脸颊中部被放大，耳朵往后缩，脸就显得又圆又鼓。",
+        { "text": "同样的构图，在0.4米拍，鼻尖比耳朵多放大近三成；退到1.5米，只剩不到一成。", "say": "同样的构图，在零点四米拍，鼻尖比耳朵多放大近三成；退到一点五米，只剩不到一成。" },
+        "女生最在意的显脸小，其实是你退后一步换来的。想要更紧的构图，就后期裁切，别往前凑。"
+      ] },
+
+    { "id": "c3", "type": "chapter", "chapter": 3, "params": { "num": "03", "title": "镜头高度，决定比例", "en": "CAMERA HEIGHT" },
+      "lines": [ "第三，镜头的高度，决定她的身材比例。" ] },
+    { "id": "c3-height", "type": "cameraHeight", "chapter": 3,
+      "lines": [
+        "站着平视拍全身，镜头离她的头近、离脚远，腿就被压短了。",
+        "蹲下来，让镜头降到腰部甚至更低，脚尖贴近画面底边，腿立刻显长。",
+        "还有一条铁律：不要在关节处裁切。脚踝、膝盖、手腕，都是禁区；要裁，就裁在大腿或小腿的中段。"
+      ] },
+
+    { "id": "c4", "type": "chapter", "chapter": 4, "params": { "num": "04", "title": "晴天，F1.2 会过曝", "en": "SHUTTER LIMIT" },
+      "lines": [ "第四个，几乎没人提前告诉你：晴天全开F1.2，照片很容易直接过曝。" ] },
+    { "id": "c4-stops", "type": "shutterStops", "chapter": 4,
+      "lines": [
+        { "text": "按阳光16法则，ISO100、F16时快门是1/125秒。", "say": "按阳光十六法则，ISO一百、F16时，快门是一百二十五分之一秒。" },
+        { "text": "开到F1.2，要多进将近7档半的光，快门得接近1/20000秒。", "say": "开到F1.2，要多进将近七档半的光，快门得接近两万分之一秒。" },
+        { "text": "而大多数机械快门，最快只有1/8000。", "say": "而大多数机械快门，最快只有八千分之一。" },
+        { "text": "解决方法：打开电子快门，或者在镜头前加一片ND减光镜。", "say": "解决方法：打开电子快门，或者在镜头前，加一片ND减光镜。" }
+      ] },
+
+    { "id": "c5", "type": "chapter", "chapter": 5, "params": { "num": "05", "title": "让背景主动融化", "en": "BOKEH BY DISTANCE" },
+      "lines": [ "第五，虚化不只靠光圈，更靠距离。" ] },
+    { "id": "c5-dist", "type": "bgDistance", "chapter": 5,
+      "lines": [
+        "背景贴着她，光圈再大也化不开。",
+        "让背景离她至少是你和她距离的两倍，光斑就能达到最大虚化的七成左右；再往后，收益就越来越小了。"
+      ] },
+    { "id": "c5-night", "type": "photo", "chapter": 5,
+      "params": { "img": "night", "kb": [1.0, 0.5, 0.5, 1.1, 0.55, 0.45],
+        "caption": { "at": 0, "kicker": "POINT LIGHTS", "text": "灯串、树叶间的阳光 → 圆润光斑" } },
+      "lines": [ "所以找背景时，专挑灯串、树叶缝隙里的阳光，它们会变成圆润的光斑。" ] },
+    { "id": "c5-fg", "type": "photo", "chapter": 5,
+      "params": { "img": "fg", "kb": [1.14, 0.5, 0.5, 1.02, 0.5, 0.5],
+        "caption": { "at": 0, "kicker": "FOREGROUND", "text": "花和叶子贴近镜头 → 梦幻前景" } },
+      "lines": [ "再进一步：把花和树叶贴近镜头，前景也虚掉，画面立刻多了一层梦幻的空气感。" ] },
+
+    { "id": "c6", "type": "chapter", "chapter": 6, "params": { "num": "06", "title": "光的方向与肤色", "en": "LIGHT & SKIN" },
+      "lines": [ "第六，光的方向，决定她的皮肤。" ] },
+    { "id": "c6-sun", "type": "sunOrbit", "chapter": 6,
+      "lines": [
+        "正午顶光会在眼窝和鼻下留下重重的阴影；顺光又太平，没有立体感。",
+        "最好的是逆光和侧逆光：让太阳在她身后，发丝会发光。"
+      ] },
+    { "id": "c6-hero", "type": "photo", "chapter": 6,
+      "params": { "img": "hero", "kb": [1.02, 0.5, 0.5, 1.12, 0.48, 0.4],
+        "rings": [ { "x": 0.625, "y": 0.42, "r": 80, "label": "发丝光", "ok": true, "at": 0, "delay": 0.4 } ],
+        "cards": [ { "at": 0, "kicker": "METERING", "title": "对脸测光  +0.7 ~ +1 EV", "body": "逆光下相机会被背景骗，主动给皮肤加曝光", "delay": 1.0 } ] },
+      "lines": [ "这时按她的脸测光，适当加零点七到一档曝光，皮肤会通透干净。" ] },
+    { "id": "c6-tree", "type": "compare", "chapter": 6,
+      "params": { "img": "tree", "left": "树荫下 · 皮肤偏青绿", "right": "白平衡偏暖 · 面向亮色地面" },
+      "lines": [
+        "还有个隐形杀手：树荫下，满眼的绿叶会把皮肤染成青绿色。",
+        "手动把白平衡调暖一点，或者让她面向亮色的地面，用地面当反光板。"
+      ] },
+
+    { "id": "c7", "type": "chapter", "chapter": 7, "params": { "num": "07", "title": "给动作，不给姿势", "en": "DIRECTING" },
+      "lines": [ "第七，也是最重要的：别让她摆姿势，给她一个动作。" ] },
+    { "id": "c7-direct", "type": "directing", "chapter": 7,
+      "params": { "img": "candid" },
+      "lines": [
+        "往前走，然后回头看我；把头发别到耳后；想一件好笑的事。",
+        "开启连拍和眼部追焦，最自然的那张，往往藏在两个动作之间。",
+        "边拍边夸，随时把好看的那张给她看，她的状态会越来越好。"
+      ] },
+
+    { "id": "recap", "type": "recap", "gap": 0.1, "trans": 0.7,
+      "params": { "items": [
+        ["收一档光圈", "对焦近眼"],
+        ["退后一步", "脸更小"],
+        ["放低机位", "腿更长"],
+        ["强光全开", "电子快门 / ND"],
+        ["拉开背景", "≥ 2 倍距离"],
+        ["逆光加曝光", "树荫调暖"],
+        ["给动作", "抓瞬间"]
+      ] },
+      "lines": [
+        "最后，记住这七件事：",
+        "收一档光圈，对焦近眼；",
+        "退后一步，脸更小；",
+        "放低机位，腿更长；",
+        "强光全开，用电子快门或ND；",
+        "背景拉开两倍距离；",
+        "逆光加曝光，树荫下调暖；",
+        "给动作，抓瞬间。"
+      ] },
+    { "id": "outro", "type": "outro", "trans": 0.9, "tail": 3.2,
+      "params": { "img": "hero" },
+      "lines": [
+        "器材决定下限。",
+        "细节，决定她会不会对你说：这张，我要发朋友圈。"
+      ] }
+  ]
+}

@@ -1,0 +1,13 @@
+# Dependencies & Environment
+node_modules/
+.env
+__pycache__/
+*.pyc
+
+# Large generated build & output media
+output/*.mp4
+projects/*/build/chunks/
+projects/*/build/img/
+projects/*/build/stills/
+projects/*/build/*.mp4
+projects/*/build/*.wav
