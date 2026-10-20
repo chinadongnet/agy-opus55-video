@@ -60,8 +60,12 @@ const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
 
 // ---------- Scheme 2: External Opus BGM Resolver & Loader ----------
 export function resolveExternalMusic(projDir, tlMusic, cliMusic) {
-  const spec = cliMusic ? { file: cliMusic } : (typeof tlMusic === 'string' ? { file: tlMusic } : (tlMusic && typeof tlMusic === 'object' ? { ...tlMusic } : {}));
-  if (spec.file && spec.file !== 'procedural' && spec.file !== 'opus') {
+  const baseSpec = typeof tlMusic === 'string'
+    ? { file: tlMusic }
+    : (tlMusic && typeof tlMusic === 'object' ? { ...tlMusic } : {});
+  const spec = cliMusic ? { ...baseSpec, file: cliMusic } : baseSpec;
+  if (spec.file) {
+    if (spec.file === 'procedural' || spec.file === 'opus') return null;
     const candidates = [
       path.resolve(projDir, spec.file),
       path.resolve(spec.file),
@@ -70,15 +74,14 @@ export function resolveExternalMusic(projDir, tlMusic, cliMusic) {
     const found = candidates.find(p => fs.existsSync(p) && fs.statSync(p).isFile());
     if (found) return { ...spec, resolvedPath: found };
     console.warn(`[audio] external music file not found (${spec.file}), falling back to Opus procedural chamber score.`);
+    return null;
   }
-  // Auto-discover assets/music.(wav|mp3|flac|m4a|ogg) if present and not explicitly forced to procedural
-  if (spec.file !== 'procedural') {
-    for (const sub of ['assets/music', 'assets/audio/music', 'assets/bgm']) {
-      for (const ext of AUDIO_EXTS) {
-        const p = path.join(projDir, sub + ext);
-        if (fs.existsSync(p) && fs.statSync(p).isFile()) {
-          return { ...spec, resolvedPath: p };
-        }
+  // Auto-discover assets/music.(wav|mp3|flac|m4a|ogg) only when no explicit file selection was supplied
+  for (const sub of ['assets/music', 'assets/audio/music', 'assets/bgm']) {
+    for (const ext of AUDIO_EXTS) {
+      const p = path.join(projDir, sub + ext);
+      if (fs.existsSync(p) && fs.statSync(p).isFile()) {
+        return { ...spec, resolvedPath: p };
       }
     }
   }
@@ -90,7 +93,6 @@ async function loadExternalScore(extCfg, dur, tl) {
   const [srcL, srcR] = await decodeStereo(extCfg.resolvedPath);
   const n = Math.ceil((dur + 2) * SR);
   const L = new Float32Array(n), R = new Float32Array(n);
-  const vol = extCfg.volume ?? 0.85;
   const offsetSamples = Math.max(0, Math.floor((extCfg.start || 0) * SR));
   const availL = srcL.subarray(Math.min(offsetSamples, srcL.length));
   const availR = srcR.subarray(Math.min(offsetSamples, srcR.length));
@@ -107,8 +109,8 @@ async function loadExternalScore(extCfg, dur, tl) {
         const u = (availL.length - i) / xfade;
         w *= Math.sin(0.5 * Math.PI * clamp(u));
       }
-      L[pos + i] += availL[i] * w * vol;
-      R[pos + i] += availR[i] * w * vol;
+      L[pos + i] += availL[i] * w;
+      R[pos + i] += availR[i] * w;
     }
     if (extCfg.loop === false) break;
     pos += step;
@@ -552,33 +554,52 @@ export async function buildAudio(projDir, opts = {}) {
   writeWav(path.join(build, 'voice.wav'), [voice]);
 
   // 2. Score: External Opus BGM (Scheme 2) or Opus Procedural Chamber Engine (Scheme 1)
+  const scoreCfg = (tl.music && typeof tl.music === 'object') ? tl.music : {};
   const extMusic = resolveExternalMusic(projDir, tl.music, opts.music);
-  let L, R;
+  let L, R, wet, userVol;
   if (extMusic) {
     [L, R] = await loadExternalScore(extMusic, tl.duration, tl);
-    addSfx(L, R, tl);
-    L = reverb(L, 0, 0.14);
-    R = reverb(R, 23, 0.14);
+    wet = 0.14;
+    userVol = clamp(Number(extMusic.volume ?? 0.85), 0, 2);
   } else {
     console.log(`[audio] synthesizing Opus-style chamber score (Felt Piano + Solo Cello + Con Sordino Strings + Rosewood Marimba)...`);
-    const scoreCfg = (tl.music && typeof tl.music === 'object') ? tl.music : {};
     [L, R] = synthOpusScore(tl.duration, tl, scoreCfg);
-    addSfx(L, R, tl);
-    L = reverb(L, 0, 0.34);
-    R = reverb(R, 29, 0.34);
+    wet = 0.34;
+    userVol = clamp(Number(scoreCfg.volume ?? 1.0), 0, 2);
   }
 
-  // Stereo cross-feed for natural room width + master fade in/out + peak normalize
-  let peak = 0;
+  // Pre-normalize dry score to optimal analog-saturation headroom (0.32) before hall reverb
+  let dryPeak = 0;
+  for (let i = 0; i < n; i++) dryPeak = Math.max(dryPeak, Math.abs(L[i]), Math.abs(R[i]));
+  if (dryPeak > 0) {
+    const dryGain = 0.32 / dryPeak;
+    for (let i = 0; i < L.length; i++) { L[i] *= dryGain; R[i] *= dryGain; }
+  }
+
+  L = reverb(L, 0, wet);
+  R = reverb(R, extMusic ? 23 : 29, wet);
+
+  // Stereo cross-feed + master fade in/out + normalize BGM to (0.72 * userVol)
+  let bgmPeak = 0;
   for (let i = 0; i < n; i++) {
     const t = i / SR;
     const g = Math.min(1, t / 1.2) * Math.min(1, Math.max(0, (tl.duration + 0.35 - t) / 3.8));
     const l0 = L[i], r0 = R[i];
     L[i] = (l0 * 0.92 + r0 * 0.08) * g;
     R[i] = (r0 * 0.92 + l0 * 0.08) * g;
-    peak = Math.max(peak, Math.abs(L[i]), Math.abs(R[i]));
+    bgmPeak = Math.max(bgmPeak, Math.abs(L[i]), Math.abs(R[i]));
   }
-  const k = 0.72 / (peak || 1);
+  const bgmGain = bgmPeak > 0 ? (0.72 * userVol) / bgmPeak : 0;
+  for (let i = 0; i < n; i++) {
+    L[i] *= bgmGain;
+    R[i] *= bgmGain;
+  }
+
+  // Layer timeline SFX after BGM volume scaling so SFX level stays independent of music.volume
+  addSfx(L, R, tl);
+  let peak = 0;
+  for (let i = 0; i < n; i++) peak = Math.max(peak, Math.abs(L[i]), Math.abs(R[i]));
+  const k = peak > 0.95 ? 0.95 / peak : 1;
   writeWav(path.join(build, 'music.wav'), [L.subarray(0, n).map(v => v * k), R.subarray(0, n).map(v => v * k)]);
 
   // 3. Master Mix: voice EQ/compression + musical sidechain ducking + broadcast -15 LUFS normalization
