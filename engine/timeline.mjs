@@ -61,7 +61,7 @@ export function buildTimeline(projDir) {
   };
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
+if (process.argv[1] && import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   const tl = buildTimeline(path.resolve(process.argv[2]));
   for (const s of tl.scenes) console.log(`${s.start.toFixed(2).padStart(7)}  ${s.duration.toFixed(2).padStart(6)}  ${s.id}`);
   console.log(`total ${tl.duration.toFixed(2)}s  (${(tl.duration / 60).toFixed(2)} min)  frames ${tl.frames}`);

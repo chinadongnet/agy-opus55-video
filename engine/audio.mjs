@@ -613,7 +613,7 @@ export async function buildAudio(projDir, opts = {}) {
   console.log(`[audio] mix.wav ready (${tl.duration.toFixed(1)}s) in ${((Date.now() - t0) / 1000).toFixed(1)}s`);
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
+if (process.argv[1] && import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   const argv = process.argv.slice(2);
   const projArg = argv.find(a => !a.startsWith('--'));
   const mi = argv.indexOf('--music');
