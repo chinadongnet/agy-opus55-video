@@ -20,5 +20,11 @@ const step = (cmd, args) => new Promise((res, rej) => {
 const t0 = Date.now();
 await step('python', [path.join('engine', 'tts.py'), proj, ...(argv.includes('--force-tts') ? ['--force'] : [])]);
 const wi = argv.indexOf('--workers');
-await step('node', [path.join('engine', 'render.mjs'), proj, ...(wi >= 0 ? ['--workers', argv[wi + 1]] : [])]);
+const mi = argv.indexOf('--music');
+await step('node', [
+  path.join('engine', 'render.mjs'),
+  proj,
+  ...(wi >= 0 ? ['--workers', argv[wi + 1]] : []),
+  ...(mi >= 0 ? ['--music', argv[mi + 1]] : []),
+]);
 console.log(`\n✔ build finished in ${((Date.now() - t0) / 1000).toFixed(1)}s`);

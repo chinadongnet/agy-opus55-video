@@ -53,6 +53,7 @@ export function buildTimeline(projDir) {
   }
   return {
     title: script.title, subtitle: script.subtitle, hud: script.hud || null,
+    music: script.music || null,
     width: v.width || 1920, height: v.height || 1080, fps: v.fps || 30,
     duration: t, frames: Math.ceil(t * (v.fps || 30)),
     chapters: Math.max(0, ...scenes.map(s => s.chapter)),
@@ -60,7 +61,7 @@ export function buildTimeline(projDir) {
   };
 }
 
-if (import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
+if (process.argv[1] && import.meta.url === `file:///${process.argv[1].replace(/\\/g, '/')}`) {
   const tl = buildTimeline(path.resolve(process.argv[2]));
   for (const s of tl.scenes) console.log(`${s.start.toFixed(2).padStart(7)}  ${s.duration.toFixed(2).padStart(6)}  ${s.id}`);
   console.log(`total ${tl.duration.toFixed(2)}s  (${(tl.duration / 60).toFixed(2)} min)  frames ${tl.frames}`);

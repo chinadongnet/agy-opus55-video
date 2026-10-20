@@ -24,6 +24,8 @@ opus55video/
 ## Usage
 ```powershell
 npm run build -- projects/50mm-portrait                  # full pipeline
+npm run audio -- projects/50mm-portrait                  # regenerate Opus chamber score & mix only
+npm run audio -- projects/50mm-portrait --music path.mp3 # mix with external Opus BGM track
 node engine/render.mjs projects/50mm-portrait --stills 3,20,65   # QA stills
 node engine/render.mjs projects/50mm-portrait --from 40 --to 70  # partial render
 node engine/timeline.mjs projects/50mm-portrait          # print scene timing
@@ -43,3 +45,12 @@ node engine/timeline.mjs projects/50mm-portrait          # print scene timing
 - **REST Endpoint**: `https://eastasia.tts.speech.microsoft.com/cognitiveservices/v1`
 - **Default Voice**: `zh-CN-XiaoxiaoNeural`, `style="gentle"`, `rate="0.95"`, `pitch="0%"`, `format="audio-24khz-48kbitrate-mono-mp3"`
 - **Scene / Line Overrides**: In `script.json`, both `scenes[i]` and individual `lines[j]` objects can override `voice` (or `name`), `style` (e.g. `gentle`, `chat`, `friendly`, `affectionate`, `cheerful`, `calm`, `lyrical`, `serious`, `newscast`, `whisper`), `styledegree`, `role`, `rate`, and `pitch`.
+
+## Audio & Music Configuration (Opus Chamber Score + External BGM)
+- **Mode 1 — Opus Procedural Chamber Engine (Default)**:
+  - Physical/spectral synthesis of **Intimate Felt Piano** (close-miked felt-hammer thump + stiff-string inharmonicity + dynamic warm low-pass filter), **Solo Bowed Cello** (delayed natural vibrato + wood body formant), **Con Sordino Chamber Strings**, and **Warm Rosewood Marimba** ostinato pulse.
+  - **Timeline-Aware Arrangement**: Automatically adapts texture to `hook` (driving staccato pulse), `title` (chord bloom + bell motif), `chapter` (narrative drop-out & cello swell), analytical/diagram scenes (thinking ostinato pulse), lyrical scenes, `recap`, and `outro`.
+- **Mode 2 — External BGM File Support**:
+  - Place an audio file at `projects/<name>/assets/music.(wav|mp3|flac|m4a|ogg)`, set `"music": "assets/music/track.mp3"` (or `{ "file": "...", "volume": 0.85, "loop": true, "start": 0 }`) in `script.json`, or pass `--music <path>` on the CLI.
+  - Automatically decodes at 48kHz stereo, seamlessly loops with a 2.5s equal-power crossfade, applies subtle chapter-transition breath dips, layers procedural SFX (`shutter`, `boom`, `whoosh`, `tick`), ducks under voiceover (`sidechaincompress`), and normalizes to `-15 LUFS`.
+
