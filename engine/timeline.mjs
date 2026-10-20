@@ -53,6 +53,7 @@ export function buildTimeline(projDir) {
   }
   return {
     title: script.title, subtitle: script.subtitle, hud: script.hud || null,
+    music: script.music || null,
     width: v.width || 1920, height: v.height || 1080, fps: v.fps || 30,
     duration: t, frames: Math.ceil(t * (v.fps || 30)),
     chapters: Math.max(0, ...scenes.map(s => s.chapter)),

@@ -121,7 +121,9 @@ async function main() {
   console.log(`[render] frames ${f0}..${f1} | ${workers} Chrome workers (GPU canvas) | encoder ${enc} x${workers}`);
 
   // audio is pure CPU work: run it concurrently with the GPU-heavy video render
-  const audioJob = flag('no-audio') ? Promise.resolve() : run('node', [path.join(ROOT, 'engine', 'audio.mjs'), PROJ]);
+  const musicFlag = flag('music');
+  const audioArgs = [path.join(ROOT, 'engine', 'audio.mjs'), PROJ, ...(musicFlag ? ['--music', String(musicFlag)] : [])];
+  const audioJob = flag('no-audio') ? Promise.resolve() : run('node', audioArgs);
 
   const chunkDir = path.join(BUILD, 'chunks'); fs.rmSync(chunkDir, { recursive: true, force: true }); fs.mkdirSync(chunkDir, { recursive: true });
   const per = Math.ceil(total / workers);
